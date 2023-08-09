@@ -1,0 +1,43 @@
+.zdInner_ban {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+.Inner_ban {
+    height: 350px;
+}
+.zdInner_txt {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.zdInner_txt span {
+    display: block;
+    width: 62px;
+    height: 4px;
+    background: #fff;
+    margin: 15px auto;
+}
+.Inner_ban .zdInner_txt span {
+    margin: 15px 0;
+}
+.Inner_ban .ind-title-l {
+    width: 82vw;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Inner_ban .ind-title-l p{
+    font-family: OPPOSans-M;
+}
