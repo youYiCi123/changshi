@@ -127,14 +127,14 @@ export default Vue.extend({
 })
 </script>
 <style>
-.imain_m {
+/* .imain_m {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   transform: translate(0, -50%);
   z-index: 2;
-}
+} */
 
 .newsCenter .newsCenter_inner {
   margin: 30px 98.250px;

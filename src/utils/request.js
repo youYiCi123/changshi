@@ -4,7 +4,7 @@ import { Message } from 'element-ui'
 // 创建axios实例
 const service = axios.create({
   // baseURL: process.env.BASE_API, // api的base_url8085
-  baseURL:'http://localhost:8087/',
+  baseURL:'http://192.168.1.170:8087/',
   timeout: 15000 // 请求超时时间
 })
 

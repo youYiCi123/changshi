@@ -2,11 +2,11 @@
   <div class="wrap">
     <div class="header">
       <div class="topbox">
-        <div class="logo">
+        <!-- <div class="logo">
           <a href="/">
             <i></i>
           </a>
-        </div>
+        </div> -->
         <div class="topnav">
           <ul>
             <li>
@@ -187,16 +187,19 @@ export default Vue.extend({
 /* //隐藏滚动条 */
 
 .header {
-  height: 50px;
+  height: .781rem;
   position: fixed;
   left: 0;
-  top: 54px;
+  top: .843rem;
   right: 0;
   z-index: 9999;
   transition: all 300ms ease;
 }
 
-
+/* .topnav ul {
+  display: flex;
+  justify-content: space-around;
+} */
 
 .header_c .topnav ul li:before {
   background: #000;
@@ -216,7 +219,7 @@ export default Vue.extend({
 }
 
 .inav_c ul li a i {
-  border: 1px #000 solid;
+  border: .015rem #000 solid;
 }
 
 .inav_c ul li.active a i {
@@ -227,9 +230,9 @@ export default Vue.extend({
 .topbox .logo {
   display: none;
   position: absolute;
-  left: 10px;
+  left: .156rem;
   top: 0;
-  padding: 8px 0;
+  padding: .125rem 0;
 }
 
 .topbox .logo a {
@@ -238,16 +241,16 @@ export default Vue.extend({
 
 .topbox .logo i {
   display: block;
-  height: 34px;
-  width: 136px;
+  height: .531rem;
+  width: 2.125rem;
   background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/%E5%85%AC%E5%8F%B8logo%E7%99%BD.png) center center no-repeat;
-  background-size: auto 32px;
+  background-size: auto .5rem;
   transition: all 200ms ease;
 }
 
 .topnav {
   text-align: center;
-  line-height: 50px;
+  line-height: .781rem;
   font-size: 0;
   line-height: 0;
 }
@@ -263,10 +266,10 @@ export default Vue.extend({
   font-weight: 900;
   display: block;
   text-align: center;
-  padding: 0 50px;
-  font-size: 16px;
-  height: 50px;
-  line-height: 50px;
+  padding: 0 .781rem;
+  font-size: .25rem;
+  height: .781rem;
+  line-height: .781rem;
   color: #fff;
   transition: all 200ms ease;
 }
@@ -292,8 +295,8 @@ export default Vue.extend({
 
 .topnav ul li a i {
   display: block;
-  height: 50px;
-  width: 300px;
+  height: .781rem;
+  width: 4.687rem;
   background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/da7ce7a2e24618568d6070004b5c40a.png) center no-repeat;
   background-size: 100% auto;
   transition: all 200ms ease;
@@ -340,14 +343,14 @@ export default Vue.extend({
 
 .inav {
   position: fixed;
-  left: 42px;
+  left: .656rem;
   top: 50%;
-  margin-top: -66px;
+  margin-top: -1.031rem;
   z-index: 9999;
 }
 
 .inav ul li {
-  padding: 6px 0;
+  padding: .093rem 0;
   list-style: none;
 }
 
@@ -357,11 +360,11 @@ export default Vue.extend({
 
 .inav ul li a i {
   display: block;
-  width: 8px;
-  height: 8px;
+  width: .125rem;
+  height:.125rem;
   border-radius: 50%;
-  border: 1px #fff solid;
-  margin: 1px;
+  border: .015rem #fff solid;
+  margin: .015rem;
   transition: all 200ms ease;
 }
 
@@ -372,7 +375,7 @@ export default Vue.extend({
 .footer {
   position: fixed;
   left: 0;
-  bottom: 36px;
+  bottom: .562rem;
   right: 0;
   color: rgba(255, 255, 255, 0.4);
   z-index: 9999;
@@ -380,15 +383,15 @@ export default Vue.extend({
 }
 
 .footbox {
-  padding: 0 42px;
-  height: 58px;
+  padding: 0 .656rem;
+  height: .906rem;
 }
 
 .footcopy {
   float: left;
-  font-size: 12px;
+  font-size: .187rem;
   line-height: 2;
-  padding: 5px 0;
+  padding: .078rem 0;
 }
 
 .footer_c {
@@ -414,12 +417,12 @@ export default Vue.extend({
 
 .footlink ul li {
   float: left;
-  margin-left: 20px;
+  margin-left: .312rem;
 }
 
 .footlink ul li img {
   display: block;
-  height: 58px;
+  height: .906rem;
 }
 </style>
 

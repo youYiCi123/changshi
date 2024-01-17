@@ -1,5 +1,5 @@
 <template>
-    <div class="fp-tableCell" style="height: 690px;">
+    <div>
         <div class="imain_m">
             <div class="mainbox">
                 <div class="iabout ">
@@ -107,52 +107,52 @@ export default Vue.extend({
 }
 
 .mainbox {
-    width: 1400px;
+    width: 21.875rem;
     margin: 0 auto;
 }
 
 .iabout .tit {
     text-align: center;
-    font-size: 40px;
+    font-size: .625rem;
     color: #fff;
     font-weight: bold;
-    line-height: 42px;
+    line-height: .656rem;
     font-family: OPPOSans-L;
-    margin-bottom: 32px;
-    letter-spacing: 1px;
+    margin-bottom: .5rem;
+    letter-spacing: .015rem;
 }
 
 .iabout .con {
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(10px);
-    text-shadow: 0 5px 25px rgba(0, 0, 0, .1);
-    box-shadow: 0 5px 25px rgba(0 0 0/20%);
-    border-radius: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-    border-right: 1px solid rgba(255, 255, 255, .1);
+    text-shadow: 0 .078rem .390rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .078rem .390rem rgba(0 0 0/20%);
+    border-radius: .156rem;
+    border-bottom: .015rem solid rgba(255, 255, 255, .1);
+    border-right: .015rem solid rgba(255, 255, 255, .1);
 
     font-family: OPPOSans-L;
     text-align: center;
-    font-size: 14px;
+    font-size: .218rem;
     color: #f7f7f7;
-    line-height: 26px;
-    padding: 10px 50px;
+    line-height: .406rem;
+    padding: 0.156rem 0.781rem;
 }
 
 .ihistory_box {
-    height: 290px;
-    padding: 0 120px;
+    height: 4.531rem;
+    padding: 0 1.875rem;
     position: relative;
 }
 
 .ihistory {
     overflow: hidden;
-    height: 290px;
+    height: 4.531rem;
     position: relative;
 }
 
 .ihistory .swiper-slide {
-    height: 290px;
+    height: 4.531rem;
 }
 
 .ihistory .item {
@@ -160,23 +160,23 @@ export default Vue.extend({
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 0 40px 0 18px;
+    padding: 0 .625rem 0 .281rem;
 }
 
 .ihistory .item .tit {
-    font-size: 16px;
-    line-height: 38px;
+    font-size: .25rem;
+    line-height: .593rem;
     color: #fff;
     font-weight: bold;
-    padding-left: 10px;
+    padding-left: .156rem;
 }
 
 .ihistory .item .con {
-    font-size: 12px;
+    font-size: .187rem;
     font-family: OPPOSans-L;
-    line-height: 18px;
+    line-height: .281rem;
     color: #b9bbc0;
-    padding-bottom: 30px;
+    padding-bottom: .468rem;
 }
 
 
@@ -186,16 +186,16 @@ export default Vue.extend({
     content: '';
     position: absolute;
     left: 0;
-    top: 8px;
-    width: 3px;
-    height: 3px;
+    top: .125rem;
+    width: .046rem;
+    height: .046rem;
     border-radius: 50%;
     background: #b9bbc0;
 }
 
 .ihistory .item .con ul li {
-    margin-bottom: 6px;
-    padding-left: 10px;
+    margin-bottom: .093rem;
+    padding-left: .156rem;
     position: relative;
     color: #979eaa;
     list-style: none
@@ -206,9 +206,9 @@ export default Vue.extend({
     content: '';
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: .078rem;
     right: 0;
-    height: 2px;
+    height: .031rem;
     background: #fff;
 }
 
@@ -216,26 +216,26 @@ export default Vue.extend({
     display: block;
     content: '';
     position: absolute;
-    left: 28px;
+    left: .437rem;
     bottom: 0;
-    width: 8px;
-    height: 8px;
+    width: .125rem;
+    height: .125rem;
     border-radius: 50%;
     background: #031c4b;
-    border: 2px #fff solid;
+    border: .031rem #fff solid;
 }
 
 .ihistory_box .swiper-button-prev,
 .ihistory_box .swiper-button-next {
-    top: 180px;
+    top: 2.812rem;
 }
 
 
 .ihistory .item .con {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: .187rem;
+    line-height: .281rem;
     color: #b9bbc0;
-    padding-bottom: 30px;
+    padding-bottom: .468rem;
 }
 
 .idown {
@@ -243,10 +243,10 @@ export default Vue.extend({
     left: 0;
     right: 0;
     text-align: center;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: .187rem;
+    line-height: .312rem;
     color: #fff;
-    padding-bottom: 50px;
+    padding-bottom: .781rem;
     bottom: 0;
 }
 
@@ -257,7 +257,7 @@ export default Vue.extend({
     left: 50%;
     bottom: 0;
     width: 1px;
-    height: 42px;
+    height: .656rem;
     background: #fff;
     opacity: 0.5;
 }
