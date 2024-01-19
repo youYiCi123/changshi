@@ -268,7 +268,7 @@ export default Vue.extend({
 .hrIdea {
     background: #f6f6f6;
     overflow: hidden;
-    padding: 45px 0;
+    padding: 0.703rem 0;
 }
 
 .inner {
@@ -281,12 +281,12 @@ export default Vue.extend({
 }
 
 .ind-title .title-cn {
-    margin-top: 5px;
+    margin-top: 0.078rem;
     line-height: 1.5;
 }
 
 .f-38 {
-    font-size: 38px;
+    font-size: 0.593rem;
 }
 
 .ind-title .title-en {
@@ -301,7 +301,7 @@ export default Vue.extend({
 
 .hrIdea_box {
     overflow: hidden;
-    box-shadow: 0 0px 40px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0 0rem 0.625rem 0rem rgb(0 0 0 / 10%);
 }
 
 .hrIdea_item {
@@ -347,20 +347,20 @@ export default Vue.extend({
 .hrIdea_txt {
     position: relative;
     width: 100%;
-    height: 269px;
-    padding: 48px 30px;
+    height: 4.203rem;
+    padding: 0.75rem 0.468rem;
     text-align: center;
     background: #fff;
 }
 
 .hrIdea_item:nth-child(2n-1) .hrIdea_txt::before {
-    border-bottom: 16px solid #fff;
-    top: -16px;
+    border-bottom: 0.25rem solid #fff;
+    top: -0.25rem;
 }
 
 .hrIdea_item:nth-child(2n) .hrIdea_txt::before {
-    bottom: -16px;
-    border-top: 16px solid #fff;
+    bottom: -0.25rem;
+    border-top: 0.25rem solid #fff;
 }
 
 .hrIdea_txt::before {
@@ -372,21 +372,21 @@ export default Vue.extend({
     height: 0;
     width: 0;
     height: 0;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
+    border-left: 0.25rem solid transparent;
+    border-right: 0.25rem solid transparent;
 }
 
 .hrIdea_txt img {
-    width: 42px;
+    width: 0.656rem;
     margin: 0 auto;
     transition: all .7s;
 }
 
 .hrIdea_txt span {
     font-family: OPPOSans-M;
-    font-size: 22px;
+    font-size: 0.343rem;
     line-height: 2;
-    margin: 8px auto;
+    margin: 0.125rem auto;
     display: block;
     transition: all .7s;
 }
@@ -394,8 +394,8 @@ export default Vue.extend({
 .hrIdea_txt p {
     font-family: OPPOSans-M;
     color: #666666;
-    margin-bottom: 12px;
-    font-size: 14px;
+    margin-bottom: 0.187rem;
+    font-size: 0.218rem;
     line-height: 1.5;
     transition: all .7s;
 }
@@ -404,7 +404,7 @@ export default Vue.extend({
     font-family: OPPOSans-M;
     position: relative;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 0.437rem;
     font-style: inherit;
     color: #999;
     transition: all .7s;
@@ -415,17 +415,17 @@ export default Vue.extend({
     content: "";
     position: absolute;
     top: 50%;
-    width: 38px;
-    height: 1px;
+    width: 0.593rem;
+    height: 0.015rem;
     background: #eee;
 }
 
 .hrIdea_txt i::before {
-    left: -48px;
+    left: -0.75rem;
 }
 
 .hrIdea_txt i::after {
-    right: -48px;
+    right: -0.75rem;
 }
 
 
@@ -437,13 +437,13 @@ export default Vue.extend({
 /* 新的 */
 .join {
     position: relative;
-    padding: 89px 0;
+    padding: 1.390rem 0;
     background-image: url(http://www.assuretech.com.cn/images/bg2.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0.015rem solid #eee;
 }
 
 .z-container {
@@ -458,26 +458,26 @@ export default Vue.extend({
 }
 
 .joinL {
-    width: 458px;
+    width: 7.156rem;
     text-align: left;
 }
 
 .joinL.pos {
-    bottom: 88px;
+    bottom: 1.375rem;
     top: auto;
 }
 
 .joinL.fixed {
     position: fixed;
-    top: 190px;
+    top: 2.968rem;
 }
 
 .joinList {
     position: relative;
-    border-radius: 6px;
+    border-radius: 0.093rem;
     overflow: hidden;
     background: #fff;
-    box-shadow: 0 12px 30px rgba(80, 80, 80, .1);
+    box-shadow: 0 0.187rem 0.468rem rgba(80, 80, 80, .1);
 }
 
 .joinList::before {
@@ -487,15 +487,15 @@ export default Vue.extend({
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 6px;
-    border: 1px solid rgba(170, 170, 170, .2);
+    border-radius: 0.093rem;
+    border: 0.015rem solid rgba(170, 170, 170, .2);
     box-sizing: border-box;
 }
 
 .joinList li {
     cursor: pointer;
     position: relative;
-    padding: 0 38px;
+    padding: 0 0.593rem;
     transition: all .6s ease 0s;
     overflow: hidden;
 }
@@ -516,8 +516,8 @@ export default Vue.extend({
 .joinList li div {
     position: relative;
     z-index: 11;
-    padding: 48px 0;
-    border-bottom: 1px solid #d8d8d8;
+    padding: 0.75rem 0;
+    border-bottom: 0.015rem solid #d8d8d8;
 }
 
 .joinList li:last-child div {
@@ -534,28 +534,28 @@ export default Vue.extend({
 
 .joinList .joinList_i2 {
     opacity: 0;
-    bottom: -68px;
-    font-size: 128px;
-    right: 20px;
+    bottom: -1.062rem;
+    font-size: 2rem;
+    right: 0.312rem;
 }
 
 .joinList .joinList_i1 {
-    font-size: 38px;
+    font-size: 0.593rem;
     top: 50%;
     transform: translateY(-50%);
-    right: 48px;
+    right: 0.75rem;
 }
 
 .joinList span {
-    font-size: 24px;
+    font-size: 0.375rem;
     color: #333;
 }
 
 .joinList p {
     color: #666;
     text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    font-size: 0.187rem;
+    letter-spacing: 0.007rem;
 }
 
 .joinList li:hover::after {
@@ -583,14 +583,14 @@ export default Vue.extend({
 
 .joinList li:hover .joinList_i1,
 .joinList li.hover .joinList_i1 {
-    font-size: 28px;
+    font-size: 0.437rem;
     opacity: 0;
 }
 
 .joinList li:hover .joinList_i2,
 .joinList li.hover .joinList_i2 {
     opacity: 1;
-    bottom: -28px;
+    bottom: -0.437rem;
 }
 
 .joinList li.hover .joinList_i2 {
@@ -598,21 +598,21 @@ export default Vue.extend({
 }
 
 .joinEm {
-    border-radius: 6px;
+    border-radius: 0.093rem;
     overflow: hidden;
     background: #fff;
-    margin-top: 38px;
-    padding: 48px;
-    border: 1px solid rgba(170, 170, 170, .2);
-    box-shadow: 0 12px 30px rgba(80, 80, 80, .1);
+    margin-top: 0.593rem;
+    padding: 0.75rem;
+    border: 0.015rem solid rgba(170, 170, 170, .2);
+    box-shadow: 0 0.187rem 0.468rem rgba(80, 80, 80, .1);
     display: flex;
     align-items: center;
 }
 
 .joinEm svg {
-    width: 48px;
-    height: 48px;
-    margin-right: 24px;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.375rem;
 }
 
 .joinEm path {
@@ -621,15 +621,15 @@ export default Vue.extend({
 
 .joinEm p {
     color: #666;
-    font-size: 15px;
+    font-size: 0.234rem;
 }
 
 .joinEm a {
     color: #49b24c;
     font-weight: bold;
     font-family: 'en';
-    font-size: 17px;
-    border-bottom: 1px solid #49b24c;
+    font-size: 0.265rem;
+    border-bottom: 0.015rem solid #49b24c;
 }
 
 .joinR {
@@ -637,13 +637,13 @@ export default Vue.extend({
     display: inline-block;
     text-align: left;
     width: calc(100% - 538px);
-    box-shadow: 0 12px 30px rgba(80, 80, 80, .1);
+    box-shadow: 0 0.187rem 0.468rem rgba(80, 80, 80, .1);
 }
 
 .recBox {
-    border-radius: 6px;
-    border: 1px solid rgba(170, 170, 170, .2);
-    padding-bottom: 80px;
+    border-radius: 0.093rem;
+    border: 0.015rem solid rgba(170, 170, 170, .2);
+    padding-bottom: 1.25rem;
 }
 
 .recruit .recItem {
@@ -658,7 +658,7 @@ export default Vue.extend({
 
 .recruit .recTit {
     font-family: OPPOSans-M;
-    font-size: 22px;
+    font-size: 0.343rem;
     margin-top: 0;
     color: #333;
     text-transform: capitalize;
@@ -675,54 +675,54 @@ export default Vue.extend({
 
 .recIco_add {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 0.187rem;
+    height: 0.187rem;
     background: url("http://www.assuretech.com.cn/images/j_1.png") no-repeat center;
     background-size: 100%;
     position: relative;
-    top: 1px;
-    margin-right: 5px;
+    top: 0.015rem;
+    margin-right: 0.078rem;
 }
 
 .recIco_num {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 0.187rem;
+    height: 0.187rem;
     background: url("http://www.assuretech.com.cn/images/j_2.png") no-repeat center;
     background-size: 100%;
     position: relative;
-    top: 1px;
-    margin-right: 5px;
+    top: 0.015rem;
+    margin-right: 0.078rem;
 }
 
 .recIco_money {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 0.187rem;
+    height: 0.187rem;
     background: url("http://www.assuretech.com.cn/images/j_3.png") no-repeat center;
     background-size: 100%;
     position: relative;
-    top: 1px;
-    margin-right: 5px;
+    top: 0.015rem;
+    margin-right: 0.078rem;
 }
 
 
 
 .recDiv {
     position: relative;
-    padding: 50px 60px 0;
+    padding: 0.781rem 0.937rem 0;
 }
 
 .recHead {
-    padding-bottom: 14px;
+    padding-bottom: 0.218rem;
     position: relative;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 0.015rem solid #ddd;
 }
 
 .recDiv_arr {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 0.156rem;
+    right: 0.312rem;
 
 }
 
@@ -752,8 +752,8 @@ export default Vue.extend({
 .recIco span {
     font-family: OPPOSans-M;
     display: inline-block;
-    margin-right: 28px;
-    font-size: 14px;
+    margin-right: 0.437rem;
+    font-size: 0.218rem;
     color: #a3afb7;
 }
 
@@ -772,24 +772,24 @@ export default Vue.extend({
 }
 
 .recBody .recBodyPadding {
-    padding: 20px 48px 48px
+    padding: 0.312rem 0.75rem 0.75rem
 }
 
 .recDiv .show {
-    max-height: 1000px;
+    max-height: 15.625rem;
 }
 
 .recBody span {
     display: block;
-    margin: 28px 0 14px;
+    margin: 0.437rem 0 0.218rem;
     font-weight: bold;
     color: #333;
-    font-size: 16px;
+    font-size: 0.25rem;
     letter-spacing: 0;
 }
 
 .recBody p {
-    font-size: 14px;
+    font-size: 0.218rem;
     color: #666;
 }
 
@@ -799,24 +799,24 @@ export default Vue.extend({
 }
 
 .recFoot {
-    margin-top: 24px;
+    margin-top: 0.375rem;
     color: #49b24c;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    font-size: 0.187rem;
+    letter-spacing: 0.007rem;
 }
 
 .recFoot svg {
     position: relative;
-    top: -2px;
-    width: 24px;
-    height: 24px;
+    top: -0.031rem;
+    width: 0.375rem;
+    height: 0.375rem;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 0.078rem;
 }
 
 .recFoot a {
     text-decoration: underline;
     color: #49b24c;
-    margin-left: 5px;
+    margin-left: 0.078rem;
 }
 </style>

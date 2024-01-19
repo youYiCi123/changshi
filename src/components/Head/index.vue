@@ -39,7 +39,7 @@
 <style scoped>
 
 .header {
-  height: 70px;
+  height: 1.093rem;
   position: fixed;
   /* background-color: #95cc88; */
   background: rgba(3,24,54,0.5);
@@ -53,9 +53,9 @@
 .topbox .logo {
   display: none;
   position: absolute;
-  left: 10px;
+  left: 0.156rem;
   top: 0;
-  padding: 8px 0;
+  padding: 0.125rem 0;
 }
 
 .topbox .logo a {
@@ -64,8 +64,8 @@
 
 .topbox .logo i {
   display: block;
-  height: 34px;
-  width: 136px;
+  height: 0.531rem;
+  width: 2.125rem;
   background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/%E5%85%AC%E5%8F%B8logo%E7%99%BD.png) center center no-repeat;
   background-size: auto 32px;
   transition: all 200ms ease;
@@ -73,7 +73,7 @@
 
 .topnav {
   text-align: center;
-  line-height: 50px;
+  line-height: 0.781rem;
   font-size: 0;
   line-height: 0;
 }
@@ -90,10 +90,10 @@
   font-weight: 900;
   display: block;
   text-align: center;
-  padding: 0 50px;
-  font-size: 16px;
-  height: 70px;
-  line-height: 70px;
+  padding: 0 0.781rem;
+  font-size: 0.25rem;
+  height: 1.093rem;
+  line-height: 1.093rem;
   color: #fff;
   transition: all 200ms ease;
 }
@@ -119,8 +119,8 @@
 
 .topnav ul li a i {
   display: block;
-  height: 70px;
-  width: 300px;
+  height: 1.093rem;
+  width: 4.687rem;
   background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/da7ce7a2e24618568d6070004b5c40a.png) center no-repeat;
   background-size: 100% auto;
   transition: all 200ms ease;

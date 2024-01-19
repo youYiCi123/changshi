@@ -137,7 +137,7 @@ export default Vue.extend({
 } */
 
 .newsCenter .newsCenter_inner {
-  margin: 30px 98.250px;
+  margin: .468rem 1.535rem;
   font-size: 0;
   color: #333;
 
@@ -145,61 +145,61 @@ export default Vue.extend({
 
 .newsCenter .newsCenter_inner .title {
   font-family: OPPOSans-M;
-  font-size: 40px;
+  font-size: .625rem;
   line-height: 1;
   font-weight: 700;
   text-align: center;
   display: inline-block;
-  margin: 126.081px 49px 30.882px 25px;
+  margin: 1.970rem .765rem .482rem .390rem;
   position: relative;
 }
 
 .newsCenter .newsCenter_inner .more_news {
   font-family: OPPOSans-M;
   float: right;
-  font-size: 14px;
+  font-size: .218rem;
   line-height: 1;
   color: #393939;
   position: relative;
-  margin-top: 148px;
+  margin-top: 2.312rem;
   cursor: pointer;
 }
 
 .newsCenter .newsCenter_inner .more_news:before {
   content: "";
-  width: 25px;
-  height: 1px;
+  width: .390rem;
+  height: .015rem;
   background: #000;
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -0.156rem;
 }
 
 .newsCenter .newsCenter_inner .more_news img {
-  height: 9px;
-  margin-left: 25px;
+  height: .140rem;
+  margin-left: .390rem;
 }
 
 .newsCenter .newsCenter_inner .news_main .news_left {
   float: left;
   width: 15%;
-  height: 476.333px;
-  margin-top: 168px;
+  height: 7.442rem;
+  margin-top: 2.625rem;
 }
 
 .newsCenter .newsCenter_inner .news_main .news_left li.active {
   color: #49b24c;
   font-weight: bold;
-  font-size: 20px;
+  font-size: .312rem;
   transition: all 0.68s;
 }
 
 .newsCenter .newsCenter_inner .news_main .news_left li {
   font-family: OPPOSans-M;
-  font-size: 15.8px;
+  font-size: .246rem;
   color: #1d1c1c;
   line-height: 1;
-  padding-bottom: 30.07px;
+  padding-bottom: .469rem;
   position: relative;
   text-align: center;
   cursor: pointer;
@@ -211,9 +211,9 @@ export default Vue.extend({
   position: absolute;
   left: 19%;
   top: 20%;
-  margin-top: -1px;
-  height: 2px;
-  width: 18px;
+  margin-top: -0.015rem;
+  height: .031rem;
+  width: .281rem;
   background: #999;
   transition: all 0.68s;
 }
@@ -223,11 +223,11 @@ export default Vue.extend({
   position: absolute;
   left: 19%;
   top: 20%;
-  width: 18px;
+  width: .281rem;
   transition: all 0.68s;
   background: #49b24c;
-  height: 3px;
-  margin-top: -1.5px;
+  height: .046rem;
+  margin-top: -0.023rem;
 }
 
 /* .newsCenter .newsCenter_inner .news_main .news_left li.active:after {
@@ -249,9 +249,9 @@ export default Vue.extend({
   float: right;
   width: 85%;
   position: relative;
-  border-radius: 7.9125px;
-  padding: 47.475px 31.65px;
-  box-shadow: -1px -1px 20px 12px rgba(0, 0, 0, .11)
+  border-radius: .123rem;
+  padding: .741rem .494rem;
+  box-shadow: -0.015rem -0.015rem .312rem .187rem rgba(0, 0, 0, .11)
 }
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container {
@@ -286,14 +286,14 @@ export default Vue.extend({
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide {
   width: 100%;
-  border-radius: 7.9125px;
+  border-radius: .123rem;
   overflow: hidden;
   cursor: pointer;
 }
 
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide .news_info {
-  height: 213.637px;
+  height: 3.338rem;
   position: relative;
 }
 
@@ -306,17 +306,17 @@ export default Vue.extend({
 }
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide .news_info .date {
-  height: 67.26px;
+  height: 1.050rem;
   line-height: 1;
-  font-size: 12.66px;
+  font-size: .197rem;
   color: #999;
 }
 
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide .news_info .date span {
-  font-size: 36.40px;
+  font-size: .568rem;
   color: #393939;
-  margin-right: 7.9125px;
+  margin-right: .123rem;
 }
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide:hover .news_info .news_title {
@@ -324,9 +324,9 @@ export default Vue.extend({
 }
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide .news_info .news_title {
-  font-size: 17.408px;
-  height: 56px;
-  line-height: 28.49px;
+  font-size: .272rem;
+  height: .875rem;
+  line-height: .445rem;
   font-family: OPPOSans-M;
   color: #393939;
   text-overflow: -o-ellipsis-lastline;
@@ -338,14 +338,13 @@ export default Vue.extend({
   -webkit-box-orient: vertical;
 }
 
-
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide .news_info .news_desc {
-  font-size: 12.66px;
+  font-size: .197rem;
   font-family: OPPOSans-M;
   opacity: .8;
-  line-height: 21.36px;
+  line-height: .333rem;
   color: #666;
-  margin-top: 14.24px;
+  margin-top: .222rem;
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -357,8 +356,8 @@ export default Vue.extend({
 
 .newsCenter .newsCenter_inner .news_main .news_right .swiper-container .swiper-wrapper .swiper-slide .image {
   width: 100%;
-  height: 166.16px;
-  border-radius: 7.9125px;
+  height: 2.596rem;
+  border-radius: .123rem;
   /* overflow: hidden;
   position: relative; */
   position: relative;
@@ -390,37 +389,37 @@ export default Vue.extend({
   position: absolute;
   left: inherit;
   right: 0;
-  bottom: -45.899px;
+  bottom: -0.717rem;
   width: auto;
-  font-size: 14.245px;
+  font-size: .222rem;
   color: #333333;
-  padding-left: 14.245px;
+  padding-left: .222rem;
 }
 
 .news_right .swiper-pagination.swiper-pagination-current {
-  font-size: 23.737px;
+  font-size: .370rem;
 }
 
 .news_right .swiper-button-prev {
   position: absolute;
   top: inherit;
   left: 0;
-  bottom: -68.899px;
-  width: 121.852px;
-  height: 63.3px;
+  bottom: -1.076rem;
+  width: 1.903rem;
+  height: .989rem;
   background-color: #e9ecf0;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAJCAYAAADQHRcxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA21pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ4OCwgMjAyMC8wNy8xMC0yMjowNjo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5OWIyN2U4Yi1iMWE1LTQ1OWQtYjkxZC1mOGQzYWQ5MjUwODkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTVDNkFGQUEyRjlGMTFFQ0I3QTBCNDNCNzU4NzZBMDciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTc1RDNEOUUyRjhGMTFFQ0I3QTBCNDNCNzU4NzZBMDciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowRkU0RjVFMTJGOEYxMUVDQjdBMEI0M0I3NTg3NkEwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowRkU0RjVFMjJGOEYxMUVDQjdBMEI0M0I3NTg3NkEwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmaesi8AAACWSURBVHjaYjx69CgDGogB4sdAfJCBRMCExk8E4qlAzM1ABkA2LBOI+4C4AIi3kWMYC5TOAOJaIE4F4jUMZAKQYVVA3ArEu4FYEYgbgJiRRHNA6r+DDFOGCggDsToQ85MZXJ9ZoGH1BYhtgHgiEF8m15sgE38BcSkQnwLinUBsTEmYMUANzAHi/0C8EYj9gPgcqYYBBBgA7tcYiFMlrMoAAAAASUVORK5CYII=);
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: 17.407px 8.703px;
-  border-top-left-radius: 7.9125px;
-  border-bottom-left-radius: 7.9125px;
+  background-size: .271rem .135rem;
+  border-top-left-radius: .123rem;
+  border-bottom-left-radius: .123rem;
 }
 
 .news_right .swiper-button-prev:after {
   content: "";
-  width: 1px;
-  height: 15.82px;
+  width: .015rem;
+  height: .247rem;
   background: #c5c5c5;
   position: absolute;
   right: 0;
@@ -432,17 +431,17 @@ export default Vue.extend({
 .news_right .swiper-button-next {
   position: absolute;
   top: inherit;
-  left: 121.852px;
-  bottom: -68.899px;
-  width: 121.852px;
-  height: 63.3px;
+  left: 1.903rem;
+  bottom: -1.076rem;
+  width: 1.903rem;
+  height: .989rem;
   background-color: #e9ecf0;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAKCAYAAABWiWWfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA21pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDQ4OCwgMjAyMC8wNy8xMC0yMjowNjo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5OWIyN2U4Yi1iMWE1LTQ1OWQtYjkxZC1mOGQzYWQ5MjUwODkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTc1RDNEOUIyRjhGMTFFQ0I3QTBCNDNCNzU4NzZBMDciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTc1RDNEOUEyRjhGMTFFQ0I3QTBCNDNCNzU4NzZBMDciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDQzM0RTZFMzJGODkxMUVDQjdBMEI0M0I3NTg3NkEwNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDQzM0RTZFNDJGODkxMUVDQjdBMEI0M0I3NTg3NkEwNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Psi91MAAAACgSURBVHjaYjx69CgDGcAUiMWAeCuyIBMDeUAfiDcAcRqyIAuZhi0FYl0gngnE7EA8mRLDvgNxPhD/AeJJQMwIokGGxQKxEBD/JdHA30B8G4hPAfFEUBiCDIsGYiWoJKngKxBLQdlxIMO8yfQqyCcyQLwRyg9hIcN7MCAJTRoCQOwBxFfITRrKQLwXiHmhPrtCSWwGADE/ELvDDAIBgAADALZuGsBMn/04AAAAAElFTkSuQmCC);
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: 17.408px 8.703px;
-  border-top-right-radius: 7.9125px;
-  border-bottom-right-radius: 7.9125px;
+  background-size: .272rem .135rem;
+  border-top-right-radius: .123rem;
+  border-bottom-right-radius: .123rem;
 }
 
 .news_right .swiper-button-prev:hover {
@@ -462,11 +461,11 @@ export default Vue.extend({
 .news_right:after {
   position: absolute;
   left: 0;
-  bottom: -37.899px;
+  bottom: -0.592rem;
   display: block;
   content: "";
   width: 95%;
-  height: 1px;
+  height: .015rem;
   background: #49b24c;
 }
 </style>

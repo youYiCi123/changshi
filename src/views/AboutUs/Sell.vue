@@ -193,23 +193,23 @@ export default {
    
 <style>
 .about_tit{
-    font-size: 30px;
+    font-size: 0.468rem;
     color: #333;
     text-align: center;
     line-height: 1;
-    margin-bottom: 36px;
+    margin-bottom: 0.562rem;
 }
 .about_tit:after {
     content: '';
     display: block;
-    width: 54px;
-    height: 3px;
+    width: 0.843rem;
+    height: 0.046rem;
     background: #333;
-    margin: 15px auto 0;
+    margin: 0.234rem auto 0;
 }
 .serve-after {
     width: 100%;
-    padding: 88px 0 0px;
+    padding: 1.375rem 0 0px;
 }
 
 .common-title.center {
@@ -221,7 +221,7 @@ export default {
 }
 
 .common-title h2 {
-    font-size: 38px;
+    font-size: 0.593rem;
     color: #49b24c;
     font-weight: 700;
 }
@@ -229,33 +229,33 @@ export default {
 
 .common-cont {
     width: 100%;
-    margin-top: 12px;
+    margin-top: 0.187rem;
 }
 
 .common-title.center p {
     font-family: OPPOSans-M;
-    font-size: 18px;
+    font-size: 0.281rem;
     color: #888;
-    line-height: 28px;
+    line-height: 0.437rem;
     letter-spacing: normal;
-    max-width: 848px;
+    max-width: 13.25rem;
     margin: 0 auto;
-    margin-top: 24px;
+    margin-top: 0.375rem;
 }
 
 .common-cont p {
-    font-size: 16px;
+    font-size: 0.25rem;
     color: #888;
-    line-height: 30px;
+    line-height: 0.468rem;
     letter-spacing: normal;
     margin-top: 0 !important;
-    max-width: 1120px !important;
+    max-width: 17.5rem !important;
 }
 
 .servr-network {
-    width: 1100px;
-    height: 631px;
-    margin: 30px auto 0;
+    width: 17.187rem;
+    height: 9.859rem;
+    margin: 0.468rem auto 0;
     position: relative;
 }
 
@@ -263,12 +263,12 @@ export default {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
-    width: 942px;
+    width: 14.718rem;
     height: 100%;
 }
 .outlest_desc {
-    width: 370px;
-    padding: 20px 40px;
+    width: 5.781rem;
+    padding: 0.312rem 0.625rem;
     position: absolute;
     right: 0;
     top: 50%;
@@ -276,26 +276,26 @@ export default {
 }
 
 .total_item {
-    margin-bottom: 10px;
+    margin-bottom: 0.156rem;
 }
 
 .outlest_tit {
-    font-size: 24px;
+    font-size: 0.375rem;
     color: #49b24c;
-    padding: 10px 20px;
+    padding: 0.156rem 0.312rem;
     box-sizing: border-box;
-    margin-top: 50px;
-    border-bottom: 1px solid #999;
+    margin-top: 0.781rem;
+    border-bottom: 0.015rem solid #999;
 }
 .tel_num {
     font-family: OPPOSans-M;
-    margin-top: 10px;
-    line-height: 30px;
-    font-size: 16px;
+    margin-top: 0.156rem;
+    line-height: 0.468rem;
+    font-size: 0.25rem;
     color: #4f4f4f;
 }
 .outname_span {
-    letter-spacing: 5px;
+    letter-spacing: 0.078rem;
 }
 
 </style>

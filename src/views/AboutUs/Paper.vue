@@ -136,35 +136,35 @@ export default Vue.extend({
 </script>
 <style>
 .pd {
-    margin-top: 95px;
-    padding: 88px 0 80px 0;
+    margin-top: 1.484rem;
+    padding: 1.375rem 0 1.25rem 0;
 }
 .about_tit {
-    font-size: 30px;
+    font-size: 0.468rem;
     color: #333;
     text-align: center;
     line-height: 1;
-    margin-bottom: 36px;
+    margin-bottom: 0.562rem;
 }
 .about_tit:after {
     content: '';
     display: block;
-    width: 54px;
-    height: 3px;
+    width: 0.843rem;
+    height: 0.046rem;
     background: #333;
-    margin: 15px auto 0;
+    margin: 0.234rem auto 0;
 }
 .honor {
     position: relative;
-    margin-top: 60px;
+    margin-top: 0.937rem;
 }
 .w12 {
-    max-width: 1200px;
+    max-width: 18.75rem;
     margin: 0 auto;
     color: #666666;
 }
 .honor .img {
-    border: 1px solid #efefef;
+    border: 0.015rem solid #efefef;
 }
 .honor .img img {
     display: block;
@@ -173,16 +173,16 @@ export default Vue.extend({
 .honor .tit {
     text-align: center;
     line-height: 1;
-    font-size: 16px;
+    font-size: 0.25rem;
     color: #333;
-    padding-top: 20px;
+    padding-top: 0.312rem;
 }
 .patent {
     position: relative;
-    margin-top: 60px;
+    margin-top: 0.937rem;
 }
 .patent .img {
-    border: 1px solid #efefef;
+    border: 0.015rem solid #efefef;
 }
 .patent .img img {
     display: block;
@@ -192,48 +192,48 @@ export default Vue.extend({
 .patent .tit {
     text-align: center;
     line-height: 1;
-    font-size: 16px;
+    font-size: 0.25rem;
     color: #333;
-    padding-top: 20px;
+    padding-top: 0.312rem;
 }
 .honor .swiper-button-prev {
     background: url(https://www.oebiotech.com/static/default/images/about_l.png)no-repeat;
     background-size: cover;
-    width: 64px;
+    width: 1rem;
     color: rgba(0, 0, 0, 0)!important;
-    height: 64px;
-    margin-top: -32px;
+    height: 1rem;
+    margin-top: -0.5rem;
     left: 0;
-    margin-left: -95px;
+    margin-left: -1.484rem;
 }
 .honor .swiper-button-next {
     background: url(https://www.oebiotech.com/static/default/images/about_r.png)no-repeat;
     background-size: cover;
-    width: 64px;
-    height: 64px;
+    width: 1rem;
+    height: 1rem;
     color: rgba(0, 0, 0, 0)!important;
-    margin-top: -32px;
+    margin-top: -0.5rem;
     right: 0;
-    margin-right: -95px;
+    margin-right: -1.484rem;
 }
 .patent .swiper-button-prev {
     background: url(https://www.oebiotech.com/static/default/images/about_l.png)no-repeat;
     background-size: cover;
-    width: 64px;
+    width: 1rem;
     color: rgba(0, 0, 0, 0)!important;
-    height: 64px;
-    margin-top: -32px;
+    height: 1rem;
+    margin-top: -0.5rem;
     left: 0;
-    margin-left: -95px;
+    margin-left: -1.484rem;
 }
 .patent .swiper-button-next {
     background: url(https://www.oebiotech.com/static/default/images/about_r.png)no-repeat;
     background-size: cover;
-    width: 64px;
-    height: 64px;
+    width: 1rem;
+    height: 1rem;
     color: rgba(0, 0, 0, 0)!important;
-    margin-top: -32px;
+    margin-top: -0.5rem;
     right: 0;
-    margin-right: -95px;
+    margin-right: -1.484rem;
 }
 </style>

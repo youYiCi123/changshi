@@ -267,7 +267,7 @@ export default Vue.extend({
   width: 100vw;
   background: #eeeeee;
   height: 100%;
-  min-height: 600px;
+  min-height: 9.375rem;
 }
 
 #iviewBg {
@@ -280,11 +280,11 @@ export default Vue.extend({
 }
 
 .container {
-  width: 1170px;
-  max-width: 1170px;
-  padding-top: 133px;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 18.281rem;
+  max-width: 18.281rem;
+  padding-top: 2.078rem;
+  padding-right: .234rem;
+  padding-left: .234rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -300,7 +300,7 @@ export default Vue.extend({
 .index2block {
   width: 17.5%;
   text-align: right;
-  margin-top: 35px;
+  margin-top: .546rem;
 }
 
 .fl {
@@ -309,40 +309,40 @@ export default Vue.extend({
 
 .index2blockp1 {
   font-family: OPPOSans-B;
-  font-size: 48px;
+  font-size: .75rem;
   font-weight: bold;
   color: #424242;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: .156rem;
 }
 
 .index2blockp2 {
-  font-size: 16px;
+  font-size: .25rem;
   color: #626262;
-  margin-bottom: 35px;
+  margin-bottom: .546rem;
 }
 
 .index2blockp3 {
-  margin-bottom: 35px;
+  margin-bottom: .546rem;
 }
 
 .index2blockp1::after {
   content: '';
   width: 0.7em;
-  height: 2px;
+  height: .031rem;
   background-color: #0081E0;
   position: absolute;
   right: 0.15em;
-  bottom: -5px;
+  bottom: -0.078rem;
 }
 
 .index2block a {
   display: inline-block;
-  font-size: 16px;
-  padding: 15px 55px;
+  font-size: .25rem;
+  padding: .234rem 0.859rem;
   color: #626262;
-  border: 1px solid #626262;
-  border-radius: 5px;
+  border: .015rem solid #626262;
+  border-radius: .078rem;
 }
 
 .index2block a span {
@@ -355,11 +355,11 @@ export default Vue.extend({
 
 .index2block a {
   display: inline-block;
-  font-size: 16px;
-  padding: 15px 55px;
+  font-size: .25rem;
+  padding: .234rem .859rem;
   color: #626262;
-  border: 1px solid #626262;
-  border-radius: 5px;
+  border: .015rem solid #626262;
+  border-radius: .078rem;
 }
 
 
@@ -375,16 +375,16 @@ export default Vue.extend({
 
 .index2num {
   position: absolute;
-  bottom: 169px;
+  bottom: 2.640rem;
   width: 73%;
   background: url(http://www.shinva.net/template/default/images/indexnum.png) no-repeat center;
   background-size: 100% 100%;
   color: #fff;
   right: 0;
-  padding-right: 210px;
-  padding-left: 60px;
-  padding-top: 55px;
-  padding-bottom: 40px;
+  padding-right: 3.281rem;
+  padding-left: .937rem;
+  padding-top: .859rem;
+  padding-bottom: .625rem;
 }
 
 .index2list {
@@ -395,21 +395,21 @@ export default Vue.extend({
 
 .index2listp1 {
   font-family: OPPOSans-M;
-  font-size: 18px;
+  font-size: .281rem;
 }
 
 .index2listp2 {
   font-family: OPPOSans-M;
-  font-size: 24px;
+  font-size: .375rem;
 }
 
 .index2listp2 span {
-  font-size: 50px;
+  font-size: .781rem;
 }
 
 .index2listp2 em {
   font-style: normal;
-  font-size: 36px;
+  font-size: .562rem;
   vertical-align: bottom;
   font-weight: bold;
   margin-right: 0.5rem;

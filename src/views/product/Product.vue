@@ -74,14 +74,14 @@ export default Vue.extend({
 .subMenu {
     overflow: hidden;
     background: #fff;
-    font-size: 0px;
+    font-size: 0rem;
     text-align: center;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 0.015rem solid #e5e5e5;
 }
 
 .newsWrap {
     clear: both;
-    width: 1200px;
+    width: 18.75rem;
     margin: 0 auto;
 }
 
@@ -94,12 +94,12 @@ export default Vue.extend({
     float: left;
     display: inline;
     overflow: hidden;
-    padding: 0px 15px;
+    padding: 0rem 0.234rem;
 }
 
 .product_desc h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.156rem;
+    margin-bottom: 0.156rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
@@ -107,8 +107,8 @@ export default Vue.extend({
 }
 
 .product_desc h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.156rem;
+    margin-bottom: 0.156rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
@@ -117,24 +117,24 @@ export default Vue.extend({
 .subMenu_a {
     display: block;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 0.25rem;
     font-weight: bold;
     color: #393939;
-    height: 65px;
-    line-height: 65px;
+    height: 1.015rem;
+    line-height: 1.015rem;
     position: relative;
-    padding: 0px 10px;
+    padding: 0rem 0.156rem;
 }
 
 .subMenu_a em {
     display: none;
     overflow: hidden;
     width: 100%;
-    height: 2px;
+    height: 0.031rem;
     background: #49b24c;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: 0rem;
+    bottom: 0rem;
 }
 
 .subMenu_dl dd.hover .subMenu_a {

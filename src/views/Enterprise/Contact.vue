@@ -206,23 +206,23 @@ export default Vue.extend({
 }
 
 .conTop_div {
-    max-width: 538px;
+    max-width: 8.406rem;
     margin: 0 auto;
 }
 
 .ind-title .title-cn {
     font-family: OPPOSans-M;
-    margin-top: 5px;
+    margin-top: 0.078rem;
     line-height: 1.5;
 }
 
 .conTop_r li p img {
     display: block;
-    width: 80px;
+    width: 1.25rem;
 }
 
 .f-38 {
-    font-size: 38px;
+    font-size: 0.593rem;
 }
 
 .ind-title .title-en {
@@ -236,43 +236,43 @@ export default Vue.extend({
 }
 
 .conTop_r ul {
-    margin-top: 30px;
+    margin-top: 0.468rem;
 }
 
 .conTop_r li {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px 0 25px;
-    border-bottom: 1px solid #e1e1e1;
+    padding: 0.312rem 0 0.390rem;
+    border-bottom: 0.015rem solid #e1e1e1;
 }
 
 .conTop_r li div {
-    padding-left: 25px;
+    padding-left: 0.390rem;
     background-repeat: no-repeat;
-    background-position: left 6px;
+    background-position: left 0.093rem;
     min-width: 40%;
 }
 
 .conTop_r li span {
     font-family: OPPOSans-M;
-    font-size: 18px;
+    font-size: 0.281rem;
     color: #333;
     line-height: 1.6;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 0.078rem;
 }
 
 .conTop_r li p {
     font-family: OPPOSans-M;
-    font-size: 14px;
+    font-size: 0.218rem;
     line-height: 1.6;
     color: #333;
 }
 
 .conBtm {
     position: relative;
-    padding: 108px 0;
+    padding: 1.687rem 0;
 }
 
 .conBtm {
@@ -311,14 +311,14 @@ export default Vue.extend({
     width: 70%;
     padding: 6%;
     background: #fff;
-    box-shadow: 10px 28px 24px rgb(51 51 51 / 18%);
+    box-shadow: 0.156rem 0.437rem 0.375rem rgb(51 51 51 / 18%);
 }
 
 .conInline form input {
     background: #f8f8f8;
-    height: 48px;
-    line-height: 48px;
-    padding: 0 14px;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    padding: 0 0.218rem;
     border: 0;
 }
 
@@ -328,9 +328,9 @@ export default Vue.extend({
 
 .conInline form textarea {
     background: #f8f8f8;
-    height: 148px;
+    height: 2.312rem;
     width: 100%;
-    margin-top: 24px;
+    margin-top: 0.375rem;
     border: 0;
 }
 
@@ -342,10 +342,10 @@ export default Vue.extend({
 }
 
 .conP p {
-    font-size: 16px;
+    font-size: 0.25rem;
     line-height: 2.1;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 0.015rem;
 }
 
 .conBtm::after {

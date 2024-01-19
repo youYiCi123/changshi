@@ -158,17 +158,17 @@ export default Vue.extend({
 <style>
 .productDetialBox {
     width: 87%;
-    height: 600px;
-    border-top: 1px solid #eee;
+    height: 9.375rem;
+    border-top: 0.015rem solid #eee;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0 0 0;
-    margin-left: 250px;
+    padding: 0.781rem 0 0 0;
+    margin-left: 3.906rem;
 }
 
 .textbox {
     width: 48%;
-    padding-top: 177.5px;
+    padding-top: 2.773rem;
 }
 
 .productDetialBox .left {
@@ -213,43 +213,43 @@ export default Vue.extend({
 
 .textbox .title {
     color: #333333;
-    font-size: 21.84px;
-    line-height: 27.3px;
-    margin-bottom: 18.2px;
+    font-size: 0.341rem;
+    line-height: 0.426rem;
+    margin-bottom: 0.284rem;
 }
 
 .textbox h4 {
     font-family: OPPOSans-M;
-    font-size: 27.3px;
+    font-size: 0.426rem;
     color: #4fb46e;
-    margin-bottom: 9.1px;
+    margin-bottom: 0.142rem;
 }
 
 .textbox .title p {
     font-family: OPPOSans-M;
-    font-size: 16.38px;
+    font-size: 0.255rem;
 }
 
 .textbox .shuom {
-    font-size: 16.38px;
+    font-size: 0.255rem;
     color: #666666;
 }
 
 .textbox .desone {
-    font-size: 21.84px;
+    font-size: 0.341rem;
     min-height: 0;
     font-family: OPPOSans-M;
-    margin-bottom: 18.2px;
+    margin-bottom: 0.284rem;
     color: #333;
 }
 
 .textbox .Rwbox {
-    line-height: 32.76px;
+    line-height: 0.511rem;
     font-family: OPPOSans-M;
 }
 
 .Anunbox {
-    margin-top: 36.4px;
+    margin-top: 0.568rem;
 }
 
 .Anunbox a {
@@ -260,8 +260,8 @@ export default Vue.extend({
     background: #4fb46e;
     color: #fff;
     text-align: center;
-    margin-right: 36.4px;
-    font-size: 12.74px;
+    margin-right: 0.568rem;
+    font-size: 0.199rem;
 }
 
 .Anunbox a:last-child {

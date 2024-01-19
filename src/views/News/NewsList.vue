@@ -99,7 +99,7 @@ export default Vue.extend({
 </script>
 <style>
 .main.news {
-  padding: 130px 0
+  padding: 2.031rem 0
 }
 
 .pt-0 {
@@ -130,11 +130,11 @@ export default Vue.extend({
 }
 
 .f-18 {
-  font-size: 18px;
+  font-size: 0.281rem;
 }
 
 .f-48 {
-  font-size: 48px;
+  font-size: 0.75rem;
 }
 
 .col-666 {
@@ -147,7 +147,7 @@ export default Vue.extend({
 }
 
 .main.news .box1 .list-box .li {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 0.015rem solid #ececec;
 }
 
 .main.news .box1 .list-box .li:last-child {
@@ -155,7 +155,7 @@ export default Vue.extend({
 }
 
 .main.news .box1 .list-box .time {
-  width: 70px;
+  width: 1.093rem;
   text-align: center;
 }
 
@@ -196,17 +196,17 @@ export default Vue.extend({
 .main.news .box1 .list-box .text:after {
   content: "";
   display: block;
-  width: 56px;
-  height: 1px;
+  width: 0.875rem;
+  height: 0.015rem;
   background: #ccc;
   position: absolute;
-  left: -70px;
-  top: 34px
+  left: -1.093rem;
+  top: 0.531rem
 }
 
 .main.news .box1 .itembox {
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 0.015rem solid #ececec;
 }
 
 .main.news .box1 .itembox .tit2 {
@@ -225,24 +225,24 @@ export default Vue.extend({
 }
 
 .main.news .box1 .itembox .more {
-  width: 135px;
-  height: 45px;
-  line-height: 45px;
+  width: 2.109rem;
+  height: 0.703rem;
+  line-height: 0.703rem;
   text-align: center;
   background: #008d40;
-  border-radius: 5px;
+  border-radius: 0.078rem;
   color: #fff;
   margin-top: .8rem;
   display: block;
 }
 
 .main.news .box1 .more-btn {
-  width: 500px;
-  height: 45px;
-  line-height: 45px;
-  border-radius: 5px;
+  width: 7.812rem;
+  height: 0.703rem;
+  line-height: 0.703rem;
+  border-radius: 0.078rem;
   background: #f2f8f1;
-  margin: 15px auto;
+  margin: 0.234rem auto;
   text-align: center;
   cursor: pointer;
   color: #008d40;
@@ -289,18 +289,18 @@ export default Vue.extend({
 }
 
 .main.news .box1 .recommend-box .tip-btn {
-  height: 36px;
-  line-height: 36px;
-  border-radius: 36px;
+  height: 0.562rem;
+  line-height: 0.562rem;
+  border-radius: 0.562rem;
   background: #008d40;
-  padding: 0 15px;
+  padding: 0 0.234rem;
   position: absolute;
   left: .5rem;
   top: .5rem;
 }
 
 .main.news .box1 .recommend-box .tip-btn img {
-  margin-right: 8px;
+  margin-right: 0.125rem;
 }
 
 .main.news .box2 {
@@ -331,7 +331,7 @@ export default Vue.extend({
   position: absolute;
   width: 0;
   bottom: 0;
-  height: 6px;
+  height: 0.093rem;
   background: #008c3f;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -344,7 +344,7 @@ export default Vue.extend({
 
 .main.news .box2 .tab-ul .li:hover:before,
 .main.news .box2 .tab-ul .li.cur:before {
-  height: 3px;
+  height: 0.046rem;
   width: 100%;
 }
 
@@ -380,7 +380,7 @@ export default Vue.extend({
 .main.news .box2 .ulbox .video-btn {
   width: 1.525rem;
   height: auto;
-  min-width: 35px;
+  min-width: 0.546rem;
   position: absolute;
   right: 0;
   left: 0;
@@ -397,12 +397,12 @@ export default Vue.extend({
 }
 
 .main.news .box2 .more-btn {
-  width: 500px;
-  height: 45px;
-  line-height: 45px;
-  border-radius: 5px;
+  width: 7.812rem;
+  height: 0.703rem;
+  line-height: 0.703rem;
+  border-radius: 0.078rem;
   background: #f2f8f1;
-  margin: 15px auto;
+  margin: 0.234rem auto;
   text-align: center;
   cursor: pointer;
   color: #008d40;
@@ -420,7 +420,7 @@ export default Vue.extend({
   bottom: 0;
   left: 0;
   width: 0;
-  height: 3px;
+  height: 0.046rem;
   background: #49b24c;
   z-index: 1;
   -webkit-transform: scale3d(1, 1, 1);
@@ -434,23 +434,15 @@ export default Vue.extend({
 }
 
 .f-20 {
-  font-size: 20px;
+  font-size: 0.312rem;
 }
 
 .pb-50 {
-  padding-bottom: 50px;
+  padding-bottom: 0.781rem;
 }
 
 .pt-50 {
-  padding-top: 50px;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
-.mt-20 {
-  margin-top: 20px;
+  padding-top: 0.781rem;
 }
 
 .mt-20 {
@@ -462,7 +454,7 @@ export default Vue.extend({
 }
 
 .f-36 {
-  font-size: 36px;
+  font-size: 0.562rem;
 }
 
 .col-666 {
@@ -474,11 +466,11 @@ export default Vue.extend({
 }
 
 .f-16 {
-  font-size: 16px;
+  font-size: 0.25rem;
 }
 
 .mb-10 {
-  margin-bottom: 10px;
+  margin-bottom: 0.156rem;
 }
 
 .main.news .box1 .list-box .text .p {
@@ -496,8 +488,8 @@ img {
 }
 
 .pagination {
-  height: 50px;
+  height: 0.781rem;
   width: 40%;
-  margin: 50px auto;
+  margin: 0.781rem auto;
 }
 </style>

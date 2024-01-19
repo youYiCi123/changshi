@@ -74,7 +74,7 @@
   <style>
   .por {
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 1.562rem;
   }
   
   .brand_wrap {
@@ -82,18 +82,18 @@
     /* height: 800px; */
     color: #fff;
     box-sizing: border-box;
-    padding-top: 130px;
+    padding-top: 2.031rem;
     text-align: center;
     overflow: hidden;
   }
   
   .brand_wrap .w1440 {
     box-sizing: border-box;
-    padding: 0 150px;
+    padding: 0 2.343rem;
   }
   
   .brand_wrap .title {
-    margin-bottom: 60px;
+    margin-bottom: 0.937rem;
     position: relative;
     z-index: 1;
   }
@@ -108,7 +108,7 @@
   }
   
   .f-38 {
-    font-size: 38px;
+    font-size: 0.593rem;
   }
   
   .brand_wrap .swiper-container {
@@ -123,7 +123,7 @@
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin-bottom: 44px;
+    margin-bottom: 0.687rem;
     width: 20vw;
     float: right;
     /* overflow: hidden; */
@@ -131,27 +131,27 @@
   }
   
   .f-18 {
-    font-size: 18px;
+    font-size: 0.281rem;
   }
   
   .brand_wrap .brand_tab .item {
-    width: 370px;
-    height: 120px;
+    width: 5.781rem;
+    height: 1.875rem;
     background: rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
     transition: all 0.3s ease 0s;
     cursor: pointer;
-    margin: 0 22px;
-    margin-bottom: 2px;
+    margin: 0 0.343rem;
+    margin-bottom: 0.031rem;
   }
   
   .brand_wrap .brand_tab .item img {
-    max-height: 40px;
-    margin-bottom: 12px;
+    max-height: 0.625rem;
+    margin-bottom: 0.187rem;
     float: left;
-    margin-left: 40px;
-    margin-right: 30px;
+    margin-left: 0.625rem;
+    margin-right: 0.468rem;
   }
   
   .contentContainer {
@@ -163,7 +163,7 @@
   
   .por {
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 1.562rem;
   }
   
   .brand_wrap .content.curAppear {
@@ -186,11 +186,11 @@
     top: 0;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(20px);
+    transform: translateY(0.312rem);
   }
   
   .f-24 {
-    font-size: 24px;
+    font-size: 0.375rem;
   }
   
   #wave1 {

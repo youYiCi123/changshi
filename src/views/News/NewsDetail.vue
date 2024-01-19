@@ -122,38 +122,38 @@ export default Vue.extend({
 
 .h35 {
     clear: both;
-    height: 35px;
+    height: 0.546rem;
 }
 
 .newsWrap {
     clear: both;
-    width: 1200px;
+    width: 18.75rem;
     margin: 0 auto;
 }
 
 .viewCont {
-    padding: 35px;
+    padding: 0.546rem;
     overflow: hidden;
     background: #fff;
 }
 
 .newsDetialTitle {
     font-family: OPPOSans-M;
-    padding: 20px 0 0px 0;
-    font-size: 30px;
-    line-height: 45px;
+    padding: 0.312rem 0 0rem 0;
+    font-size: 0.468rem;
+    line-height: 0.703rem;
     color: #141414;
     text-align: center;
     font-weight: bold;
 }
 
 .newsDetialTime {
-    line-height: 30px;
+    line-height: 0.468rem;
     text-align: center;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 0.015rem solid #e6e6e6;
     color: #666;
-    font-size: 14px;
-    padding: 20px 0px 30px 0px;
+    font-size: 0.218rem;
+    padding: 0.312rem 0rem 0.468rem 0rem;
 }
 
 .newsDetialTime .center {
@@ -168,7 +168,7 @@ export default Vue.extend({
 .newsDetial_fz {
     position: relative;
     cursor: pointer;
-    margin: 0px 20px;
+    margin: 0rem 0.312rem;
 }
 
 .newsShare {
@@ -179,7 +179,7 @@ export default Vue.extend({
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 30px;
+    top: 0.468rem;
     left: 0;
     z-index: 9999;
     opacity: 0;
@@ -199,12 +199,12 @@ export default Vue.extend({
 
 .fontSize_box span {
     display: block;
-    height: 20px;
+    height: 0.312rem;
     background: #f5f5f5;
-    font-size: 14px;
+    font-size: 0.218rem;
     color: #666;
     text-align: center;
-    line-height: 20px;
+    line-height: 0.312rem;
     cursor: pointer;
 }
 
@@ -227,8 +227,8 @@ export default Vue.extend({
 }
 
 .ShareBox span {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 0.218rem;
+    line-height: 0.468rem;
     float: left;
 }
 
@@ -239,7 +239,7 @@ export default Vue.extend({
 }
 
 .bdshare-button-style0-16 .bds_tsina {
-    background-position: 0 -104px;
+    background-position: 0 -1.625rem;
 }
 
 .ShareBox .bds_tsina {
@@ -255,83 +255,83 @@ export default Vue.extend({
 .bdshare-button-style0-16 a,
 .bdshare-button-style0-16 .bds_more {
     float: left;
-    font-size: 12px;
-    padding-left: 17px;
-    line-height: 16px;
-    height: 16px;
+    font-size: 0.187rem;
+    padding-left: 0.265rem;
+    line-height: 0.25rem;
+    height: 0.25rem;
     background-image: url(http://bdimg.share.baidu.com/static/api/img/share/icons_0_16.png?v=d754dcc0.png);
     background-repeat: no-repeat;
     cursor: pointer;
-    margin: 6px 6px 6px 0;
+    margin: 0.093rem 0.093rem 0.093rem 0rem;
 }
 
 .ShareBox a {
     padding: 0 !important;
-    width: 30px !important;
-    height: 30px !important;
-    margin: 0 7px 0 0 !important;
+    width: 0.468rem !important;
+    height: 0.468rem !important;
+    margin: 0 0.109rem 0 0 !important;
 }
 
 .ShareBox i {
     clear: both;
     display: block;
-    font-size: 12px;
+    font-size: 0.187rem;
     color: #666;
     text-align: center;
     overflow: hidden;
-    margin: 5px 0px;
+    margin: 0.078rem 0rem;
     display: none;
 }
 
 .h30 {
     clear: both;
-    height: 30px;
+    height: 0.468rem;
 }
 
 .minH_350 {
-    min-height: 350px;
+    min-height: 5.468rem;
     height: auto !important;
-    height: 350px;
+    height: 5.468rem;
 }
 
 .articleBox {
     overflow: hidden;
-    font-size: 14px;
+    font-size: 0.218rem;
     color: #747474;
-    line-height: 30px;
-    padding: 20px 0 0 0;
+    line-height: 0.468rem;
+    padding: 0.312rem 0 0 0;
 }
 
 .articlePage {
     clear: both;
     text-align: center;
     overflow: hidden;
-    padding: 20px 0;
+    padding: 0.312rem 0;
 }
 
 .pageUp {
     clear: both;
     overflow: hidden;
-    line-height: 35px;
-    font-size: 16px;
-    padding: 20px 170px 0 0;
-    border-top: 1px solid #e4e4e4;
+    line-height: 0.546rem;
+    font-size: 0.25rem;
+    padding: 0.312rem 2.656rem 0 0;
+    border-top: 0.015rem solid #e4e4e4;
     position: relative;
 }
 
 a.backList {
-    height: 40px;
+    height: 0.625rem;
     overflow: hidden;
-    line-height: 40px;
+    line-height: 0.625rem;
     background: #4c8cd2;
-    font-size: 15px;
+    font-size: 0.234rem;
     color: #fff !important;
     text-align: center;
-    padding: 0px 30px;
+    padding: 0rem 0.468rem;
     position: absolute;
-    right: 0px;
+    right: 0rem;
     top: 50%;
-    margin-top: -20px;
+    margin-top: -0.312rem;
 }
 
 .pageUp a {
@@ -345,6 +345,6 @@ a.backList {
 
 .h40 {
     clear: both;
-    height: 40px;
+    height: 0.625rem;
 }
 </style>

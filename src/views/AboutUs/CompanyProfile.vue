@@ -72,12 +72,12 @@ export default Vue.extend({
 /* 63.3px */
 .introduction {
   margin-left: 10%;
-  padding: 140.024px 0;
+  padding: 2.187rem 0;
 }
 
 .introduction .intro_left {
   width: 57%;
-  height: 530px;
+  height: 8.281rem;
   background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/%E5%85%AC%E5%8F%B8.jpg) no-repeat 50%;
   background-size: 100% 100%;
   float: left;
@@ -86,10 +86,10 @@ export default Vue.extend({
 
 .introduction .intro_left .intro_number {
   width: 72%;
-  height: 83.556px;
-  margin: 35.448px auto;
+  height: 1.305rem;
+  margin: 0.553rem auto;
   background: hsla(0, 0%, 100%, .7);
-  border-radius: 6.3px;
+  border-radius: 0.098rem;
 }
 
 .introduction .intro_left .intro_number .number_item {
@@ -99,16 +99,16 @@ export default Vue.extend({
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #264994;
-  font-size: 35.448px;
+  font-size: 0.553rem;
   text-align: center;
   font-weight: 700;
-  line-height: 72.8px;
+  line-height: 1.137rem;
 }
 
 .introduction .intro_left .intro_number .number_item span {
-  font-size: 11.4px;
+  font-size: 0.178rem;
   font-weight: 400;
-  margin-left: 6.3px;
+  margin-left: 0.098rem;
   vertical-align: super;
 }
 
@@ -122,50 +122,50 @@ export default Vue.extend({
 }
 
 .introduction .intro_right {
-  height: 450px;
+  height: 7.031rem;
   width: 43%;
   float: right;
 }
 
 .introduction .intro_right .intro_detail {
-  width: 480px;
-  padding-left: 48px;
+  width: 7.5rem;
+  padding-left: .75rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .introduction .intro_right .intro_detail h3 {
-  font-size: 38.6px;
+  font-size: 0.603rem;
   color: #393939;
   font-weight: 700;
-  line-height: 53.3px;
-  margin-top: 15.15px;
+  line-height: 0.832rem;
+  margin-top: 0.236rem;
 }
 
 .introduction .intro_right .intro_detail h4 {
-    font-size: 24.78px;
+    font-size: 0.387rem;
     color: #d7d7d7;
-    line-height: 40.448px;
+    line-height: 0.632rem;
 }
 
 .introduction .intro_right .intro_detail .detail_p {
-  height: 285px;
-  margin-top: 15.08px;
+  height: 4.453rem;
+  margin-top: 0.235rem;
   /* background: url(https://www.cnbg.com.cn/static/img/year_1919_bg.2fe064d4.png) no-repeat 50%; */
-  background-size: auto 111px;
+  background-size: auto 1.734rem;
 }
 
 .el-scrollbar__view{
   font-family: OPPOSans-R;
   opacity: .7;
-  font-size:18px;
+  font-size:0.281rem;
 }
 .introduction .intro_right .intro_detail .detail_square {
-  margin-top: 33.778px;
+  margin-top: 0.527rem;
   width: 100%;
-  height: 87.35px;
+  height: 1.364rem;
   background: #516da9;
-  border-radius: 6.3px;
+  border-radius: 0.098rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,29 +179,29 @@ export default Vue.extend({
   -ms-flex: 1;
   flex: 1;
   position: relative;
-  padding-left: 38px;
+  padding-left: 0.593rem;
 }
 
 .introduction .intro_right .intro_detail .detail_square .square_item h5 {
-  font-size: 30.52px;
+  font-size: 0.476rem;
   font-weight: 700;
   color: #fff;
 }
 
 .introduction .intro_right .intro_detail .detail_square .square_item h5 span {
-  font-size: 10.12px;
+  font-size: 0.158rem;
   font-weight: 400;
 }
 
 .introduction .intro_right .intro_detail .detail_square .square_item h6 {
-  font-size: 11.4px;
+  font-size: 0.178rem;
   color: #fff;
 }
 
 .introduction .intro_right .intro_detail .detail_square .square_item:after {
   content: "";
-  width: 1px;
-  height: 38px;
+  width: 0.015rem;
+  height: 0.593rem;
   background: #fff;
   position: absolute;
   right: 0;

@@ -8,8 +8,6 @@
             </div>
             <p class="contact-text f-center wow fadeInUp" style="margin-top: 0%; opacity: 1;"  data-wow-duration="1s" data-wow-delay="0.8s">
                 如您对天一生物有任何问题，可以通过下面的联系方式咨询我们的工作人员，我们将很高兴为您解答。</p>
-
-
             <div class="ilx_b">
                 <div class="ilx_l white">
                     <div class="ilx_l-in">
@@ -93,12 +91,12 @@ export default Vue.extend({
 
 .s_bt {
     margin-bottom: 2%;
-    margin-top: 14%;
+    margin-top: 11%;
     color: #fff;
 }
 
 .f-38 {
-    font-size: 38px;
+    font-size: .593rem;
 }
 
 .s_bt h3 {
@@ -113,7 +111,7 @@ export default Vue.extend({
     margin: 0 auto;
     line-height: 1.4;
     margin-top: 10%;
-    font-size: 13px;
+    font-size: .203rem;
 }
 
 .ilx_b {
@@ -126,7 +124,7 @@ export default Vue.extend({
 .ilx_b .ilx_l {
     width: 41%;
     float: left;
-    margin-top: 40px;
+    margin-top: .625rem;
 }
 
 .white {
@@ -139,20 +137,20 @@ export default Vue.extend({
 
 .ilx_b .ilx_r .ilx_rdt a:hover {
     color: #c1c1c1;
-    margin-left: 5px;
+    margin-left: .078rem;
     transition: 0.45s;
 }
 
 .mb-60 {
-    margin-bottom: 46px;
+    margin-bottom: .718rem;
 }
 
 .mt-30 {
-    margin-top: 10px;
+    margin-top: .156rem;
 }
 
 .f-24 {
-    font-size: 24px;
+    font-size: .375rem;
     font-family: OPPOSans-M;
 }
 
@@ -160,32 +158,32 @@ export default Vue.extend({
     font-family: OPPOSans-M;
     font-style: inherit;
     display: block;
-    margin-bottom: 14px;
+    margin-bottom: .218rem;
     color: #fff;
 }
 
 .footL_t p {
     font-family: OPPOSans-M;
-    margin-top: 18px;
+    margin-top: .218rem;
     color: #fff;
 }
 
 .footL_t span {
     font-family: OPPOSans-M;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: .781rem;
     font-weight: 300;
 }
 
 .ilx_b .ilx_l p {
     font-family: OPPOSans-M;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: .218rem;
+    line-height: .343rem;
 }
 
 .ilx_b .ilx_r {
     width: 59%;
-    margin-top: 70px;
+    margin-top: 1.093rem;
     float: right;
     overflow: hidden;
 }
@@ -203,30 +201,30 @@ export default Vue.extend({
 }
 
 .mb-30 {
-    margin-bottom: 30px;
+    margin-bottom: .468rem;
 }
 
 .f-24 {
     font-family: OPPOSans-M;
-    font-size: 24px;
+    font-size: .375rem;
 }
 
 .ilx_b .ilx_r .ilx_rdt a {
     font-family: OPPOSans-M;
     display: block;
-    font-size: 14px;
+    font-size: .218rem;
     line-height: 3em;
 }
 
 .ilx_d {
     font-family: OPPOSans-M;
     position: absolute;
-    height: 50px;
+    height: .781rem;
     width: 100%;
     bottom: 0px;
-    line-height: 50px;
+    line-height: .781rem;
     color: #999;
-    font-size: 14px;
+    font-size: .218rem;
     overflow: hidden;
     font-family: 'CenturyGothic';
 }

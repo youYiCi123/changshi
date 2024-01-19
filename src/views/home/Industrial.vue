@@ -83,7 +83,7 @@ export default Vue.extend({
     color: #fff;
     /* margin-bottom: 2%;
     margin-top: 3%; */
-    padding-top: 120px;
+    padding-top: 1.875rem;
 }
 
 .s_bt01 p {
@@ -96,7 +96,7 @@ export default Vue.extend({
 
 .f-38 {
     font-family: OPPOSans-M;
-    font-size: 38px;
+    font-size: .593rem;
 }
 
 .s_bt01 h3 {
@@ -114,25 +114,25 @@ export default Vue.extend({
 }
 
 .sec03_box {
-    width: 1100px;
+    width: 17.187rem;
     margin: 0 auto;
-    height: 530px;
+    height: 8.281rem;
     position: relative;
     overflow: hidden;
 }
 
 .sc3_cen {
-    width: 482px;
-    height: 482px;
+    width: 7.531rem;
+    height: 7.531rem;
     position: absolute;
     top: 55%;
-    margin-top: -241px;
+    margin-top: -3.765rem;
     left: 50%;
-    margin-left: -241px;
+    margin-left: -3.765rem;
     background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230314162810.png) no-repeat;
-    background-position-x: 140px;
-    background-position-y: 140px;
-    background-size: 200px 200px;
+    background-position-x: 2.187rem;
+    background-position-y: 2.187rem;
+    background-size: 3.125rem 3.125rem;
     animation: myBreath 2s linear infinite;
 }
 
@@ -174,53 +174,53 @@ export default Vue.extend({
 
 .sc3_l {
     position: absolute;
-    left: -500px;
+    left: -7.812rem;
     top: 0px;
     
 }
 
 .sc3_r {
     position: absolute;
-    right: -500px;
-    top: 100px;
+    right: -7.812rem;
+    top: 1.562rem;
 }
 
 .sc3_l div {
-    border-left: 12px solid rgba(20, 156, 135, 0);
-    padding-left: 25px;
+    border-left: .187rem solid rgba(20, 156, 135, 0);
+    padding-left: .390rem;
 }
 
 .sc3_lb div {
-    height: 76px;
+    height: 1.187rem;
     position: absolute;
 }
 
 .sc3_lb div h3 {
     display: block;
     overflow: hidden;
-    line-height: 36px;
-    height: 36px;
+    line-height: .562rem;
+    height: .562rem;
 }
 .sc3_l div:hover {
-    border-left: 12px solid #49b24c;
+    border-left: .187rem solid #49b24c;
     margin-left: 8px;
     transition: .3s linear;
 }
 .sc3_r div:hover {
-    border-right: 12px solid #49b24c;
-    margin-right: 8px;
+    border-right: .187rem solid #49b24c;
+    margin-right: .125rem;
     transition: .4s linear;
 }
 .sc3_lb div h3 i {
     float: left;
     font-family: Arial;
     color: #49b24c;
-    font-size: 36px;
+    font-size: .562rem;
 }
 
 .sc3_lb div h3 p {
     font-family: OPPOSans-M;
-    font-size: 24px;
+    font-size: .375rem;
     color: #000000;
     font-weight: 600;
 }
@@ -232,51 +232,51 @@ export default Vue.extend({
 }
 
 .sc3_lb div span {
-    width: 210px;
+    width: 3.281rem;
     display: block;
-    height: 1px;
+    height: .015rem;
     background-color: rgba(140, 142, 146, 0.3);
     color: #fff;
 }
 
 .sc3_lb .sc3_l01 {
     position: absolute;
-    left: 415px;
-    top: 9px;
+    left: 6.484rem;
+    top: .140rem;
 }
 
 .sc3_lb .sc3_l02 {
     position: absolute;
-    left: 48px;
-    width: 305px;
-    top: 164px;
+    left: .75rem;
+    width: 4.765rem;
+    top: 2.562rem;
 }
 
 .sc3_lb .sc3_l03 {
     position: absolute;
-    left: 52px;
-    width: 305px;
-    top: 390px;
+    left: .812rem;
+    width: 4.765rem;
+    top: 6.093rem;
 }
 
 .sc3_lb .sc3_l04 {
     position: absolute;
-    right: 35px;
-    width: 305px;
-    top: 64px;
+    right: .546rem;
+    width: 4.765rem;
+    top: 1rem;
 }
 
 .sc3_r div {
-    border-right: 12px solid rgba(20, 156, 135, 0);
-    padding-right: 25px;
+    border-right: .187rem solid rgba(20, 156, 135, 0);
+    padding-right: .390rem;
     text-align: right;
 }
 
 .sc3_lb .sc3_l05 {
     position: absolute;
-    right: 36px;
-    width: 305px;
-    top: 290px;
+    right: .562rem;
+    width: 4.765rem;
+    top: 4.531rem;
 }
 
 @keyframes nq {

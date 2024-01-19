@@ -134,14 +134,14 @@ export default Vue.extend({
 <style>
 .about-develop {
     width: 100%;
-    padding: 120px 0 20px;
+    padding: 1.875rem 0 0.312rem;
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: cover;
 }
 
 .about-develop .contain {
-    width: 1300px;
+    width: 20.312rem;
     margin: 0 auto;
 }
 
@@ -154,26 +154,26 @@ export default Vue.extend({
 }
 
 .common-title h2 {
-    font-size: 32px;
+    font-size: 0.5rem;
     color: #444;
     font-weight: 700;
 }
 
 .about-item {
     width: 100%;
-    margin-top: 34px;
+    margin-top: 0.531rem;
     position: relative;
-    padding-top: 54px;
+    padding-top: 0.843rem;
 }
 
 .about-num {
     position: absolute;
     font-family: Arial;
-    top: -12px;
+    top: -0.187rem;
     left: 50%;
     transform: translateX(-50%);
     color: #e8eee8;
-    font-size: 312px;
+    font-size: 4.875rem;
     line-height: .8em;
     background: linear-gradient(to bottom, #f0f0f0, #fff);
     background: -ms-linear-gradient(to bottom, #f0f0f0, #fff);
@@ -192,13 +192,13 @@ export default Vue.extend({
 
 .about-year .swiper-container {
     z-index: 3;
-    padding: 12px 0;
+    padding: 0.187rem 0;
 }
 
 .about-year-link {
     width: 100%;
     text-align: center;
-    height: 143px;
+    height: 2.234rem;
     position: relative;
     cursor: pointer;
 }
@@ -208,27 +208,27 @@ export default Vue.extend({
     position: absolute;
     z-index: 2;
     width: 100%;
-    height: 6px;
+    height: 0.093rem;
     background: linear-gradient(to left, rgb(73 183 67 / 80%), rgba(255, 255, 255, 1));
     right: 50%;
     top: 50%;
-    margin-top: -3px;
+    margin-top: -0.046rem;
 }
 
 .about-year-link i {
-    width: 143px;
-    height: 143px;
+    width: 2.234rem;
+    height: 2.234rem;
     position: absolute;
     top: 0;
     left: 50%;
     z-index: 3;
-    margin-left: -71px;
+    margin-left: -1.109rem;
 }
 
 .about-year-link i:before {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 0.312rem;
+    height: 0.312rem;
     content: "";
     background: #45d01e;
     top: 50%;
@@ -261,7 +261,7 @@ export default Vue.extend({
 }
 
 .about-year-link p {
-    font-size: 20px;
+    font-size: 0.312rem;
     color: #444444;
     z-index: 4;
     transition: all .4s ease;
@@ -271,12 +271,12 @@ export default Vue.extend({
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-top: 50px;
+    margin-top: 0.781rem;
 }
 
 .swiper-slide-active .about-year-link p {
     color: #fff;
-    font-size: 40px;
+    font-size: 0.625rem;
     margin: 0 !important;
 }
 
@@ -284,10 +284,10 @@ export default Vue.extend({
     content: "";
     opacity: 0;
     position: absolute;
-    width: 143px;
-    height: 139px;
+    width: 2.234rem;
+    height: 2.171rem;
     left: 50%;
-    margin-left: -71px;
+    margin-left: -1.109rem;
     top: 0;
     background: url(https://example-wang-oss.oss-cn-hangzhou.aliyuncs.com/Blog/image/%E5%85%AC%E5%8F%B8%E5%8E%86%E7%A8%8B1.png) no-repeat center;
     background-size: 100%;
@@ -301,8 +301,8 @@ export default Vue.extend({
 
 .about-wdbox {
     width: 100%;
-    margin-top: 28px;
-    height: 120px;
+    margin-top: 0.437rem;
+    height: 1.875rem;
 }
 
 .about-wdbox li.ontrue {
@@ -319,20 +319,20 @@ export default Vue.extend({
 }
 
 .about-wd {
-    max-width: 584px;
+    max-width: 9.125rem;
     margin: 0 auto;
     transition: all 4s ease;
     opacity: 0;
 }
 .about-wd p {
-    font-size: 15px;
+    font-size: 0.234rem;
     color: #444;
-    line-height: 36px;
+    line-height: 0.562rem;
 }
 
 .about-tagyear {
     width: 100%;
-    margin-top: 168px;
+    margin-top: 2.625rem;
     position: relative;
 }
 
@@ -346,18 +346,18 @@ export default Vue.extend({
 
 .about-prev,
 .about-next {
-    width: 42px;
-    height: 42px;
+    width: 0.656rem;
+    height: 0.656rem;
     position: absolute;
     border-radius: 50%;
     background: #fff url(http://www.aikang-medical.com/template/default/images/common/arrow_dlH..svg) no-repeat center/24px;
     z-index: 4;
     top: 50%;
     transform: rotate(90deg);
-    margin-top: -21px;
+    margin-top: -0.328rem;
     cursor: pointer;
     transition: all .4s ease;
-    box-shadow: 0 0 11px rgba(0, 0, 0, 0.11);
+    box-shadow: 0 0 0.171rem rgba(0, 0, 0, 0.11);
 }
 
 .about-prev {
@@ -372,13 +372,13 @@ export default Vue.extend({
 .about-tagyear li {
     list-style-type: none;
     float: left;
-    margin-right: 64px;
+    margin-right: 1rem;
 }
 
 .about-tagyear li span {
-    font-size: 17px;
+    font-size: 0.265rem;
     color: #777;
-    padding-bottom: 12px;
+    padding-bottom: 0.187rem;
     position: relative;
     cursor: pointer;
 }
@@ -392,7 +392,7 @@ export default Vue.extend({
 .about-tagyear li span::after {
     content: '';
     width: 0%;
-    height: 3px;
+    height: 0.046rem;
     background-color: #0df02b;
     position: absolute;
     right: 0;
@@ -401,13 +401,13 @@ export default Vue.extend({
 }
 
 .about-year .swiper-slide:nth-child(2n+1) .about-year-link p {
-    margin-top: -50px;
+    margin-top: -0.781rem;
 }
 
 @keyframes aboMs {
     0% {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(0.312rem);
     }
 
     100% {
