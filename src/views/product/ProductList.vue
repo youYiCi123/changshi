@@ -14,7 +14,7 @@
                     <h4>{{ item.prodName }}</h4>
                     <h6>{{ item.feature }}</h6>
                     <p>{{ item.principle }}</p>
-                    <router-link class="product_more_desc" :to="{ path: 'ProductDetial', query: { prodId: item.id, } }">查看更多</router-link>
+                    <router-link class="product_more_desc" :to="{ path: '/Product/ProductDetial', query: { prodId: item.id, } }">查看更多</router-link>
                 </div>
                 <div class="product_h_line">
                 </div>
@@ -100,7 +100,7 @@ export default Vue.extend({
 
 .ty-prod-list .ty-loper {
     margin: 0 auto;
-    padding: 80px 0 10px;
+    padding: 1.25rem 0 0.156rem;
     width: 70%;
 }
 
@@ -112,14 +112,14 @@ export default Vue.extend({
     overflow: hidden;
     margin: 2% auto;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 0.234rem;
     background: #fff;
     box-shadow: inherit;
     transition: all .5s ease-in-out;
 }
 
 .kf-fops .ty-poet:hover {
-    box-shadow: -1px -1px 20px 12px rgba(0, 0, 0, .11)
+    box-shadow: -0.015rem -0.015rem 0.312rem 0.187rem rgba(0, 0, 0, .11)
 }
 
 .ty-loper .ty-poet:nth-child(2n) .ty-xc {
@@ -132,18 +132,18 @@ export default Vue.extend({
 
 .col-lg-6 {
     position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    min-height: 0.015rem;
+    padding-right: 0.234rem;
+    padding-left: 0.234rem;
     float: left;
     width: 50%;
 }
 
 .col-md-6 {
     position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    min-height: 0.015rem;
+    padding-right: 0.234rem;
+    padding-left: 0.234rem;
     float: left;
     width: 50%;
 }
@@ -181,7 +181,7 @@ export default Vue.extend({
 .ty-loper .ty-poet .product_desc {
     display: flex;
     width: 100%;
-    height: 460px;
+    height: 7.187rem;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -190,14 +190,14 @@ export default Vue.extend({
 
 .ty-loper .ty-poet .product_desc h4 {
     color: #49b24c;
-    font-size: 30px;
+    font-size: 0.468rem;
     font-family: OPPOSans-M;
 }
 
 .ty-loper .ty-poet .product_desc h6 {
     color: #49b24c;
     font-family: OPPOSans-M;
-    font-size: 18px;
+    font-size: 0.281rem;
 }
 
 .ty-loper .ty-poet .product_desc p {
@@ -207,7 +207,7 @@ export default Vue.extend({
     color: #666;
     text-align: left;
     text-overflow: ellipsis;
-    font-size: 16px;
+    font-size: 0.25rem;
     font-family: OPPOSans-M;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
@@ -215,10 +215,10 @@ export default Vue.extend({
 
 .ty-prod-list .ty-loper p {
     margin: 0;
-    padding: 5px 0;
+    padding: 0.078rem 0;
     color: #666;
     text-align: center;
-    font-size: 16px;
+    font-size: 0.25rem;
     font-family: OPPOSans-M;
 }
 
@@ -226,8 +226,8 @@ export default Vue.extend({
     display: block;
     margin-top: 4%;
     padding: 1% 2%;
-    width: 100px;
-    border-radius: 15px;
+    width: 1.562rem;
+    border-radius: 0.234rem;
     background: #49b24c;
     color: #fff;
     text-align: center;
@@ -238,7 +238,7 @@ export default Vue.extend({
     position: absolute;
     bottom: 0;
     width: 0;
-    height: 5px;
+    height: 0.078rem;
     background: #49b24c;
     transition: all .5s ease-in-out;
 }
@@ -258,9 +258,9 @@ export default Vue.extend({
 }
 
 .ty-loper .pagination {
-    height: 50px;
+    height: 0.781rem;
     width: 45%;
-    margin: 50px auto;
+    margin: 0.781rem auto;
 }
 
 .ty-loper .el-pagination .btn-next,

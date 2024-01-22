@@ -295,11 +295,11 @@ export default Vue.extend({
 }
 
 .search-banner-component .support-search-index.v3.support-v4 {
-  height: 480px !important;
+  height: 7.5rem !important;
 }
 
 .support-search-index.v3 {
-  height: 640px;
+  height: 10rem;
   padding-left: 0;
   background-position: center;
   background-size: cover;
@@ -309,7 +309,7 @@ export default Vue.extend({
 .search-banner-component .banner-img-wrap {
   overflow-x: hidden;
   position: relative;
-  height: 480px !important;
+  height: 7.5rem !important;
 }
 
 .search-banner-component .support-search-index.v3 .banner-search-wrap {
@@ -322,7 +322,7 @@ export default Vue.extend({
 }
 
 .search-banner-component .support-search-index.v3.support-v4 div.s-text {
-  text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  text-shadow: 0 0 0.156rem rgb(0 0 0 / 50%);
 }
 
 .support-search-index.v3.support-v4 .search-banner-quick-links li:hover,
@@ -339,8 +339,8 @@ export default Vue.extend({
 
 .support-search-index.v3.support-v4 div.s-text {
   font-family: OPPOSans-M;
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   width: 80%;
   padding-bottom: 0;
   text-align: center;
@@ -353,36 +353,36 @@ export default Vue.extend({
 }
 
 .support-search-index.v3 div.s-text p {
-  font-size: 32px;
+  font-size: 0.5rem;
   line-height: 1.5;
-  margin-top: 24px;
+  margin-top: 0.375rem;
   text-align: center;
 }
 
 .search-banner-component .support-search-index.v3.support-v4 .s-search-input {
-  width: 800px;
-  height: 56px;
+  width: 12.5rem;
+  height: 0.875rem;
   background-color: white;
   margin: 0 auto;
   cursor: pointer;
   position: relative;
-  border-radius: 28px;
-  margin-top: 88px;
+  border-radius: 0.437rem;
+  margin-top: 1.375rem;
 }
 
 .support-search-index.v3.support-v4 .search-banner-input {
-  height: 56px;
-  line-height: 56px;
+  height: 0.875rem;
+  line-height: 0.875rem;
   width: 100%;
   left: auto;
-  padding: 0 80px 0 32px;
-  font-size: 16px;
+  padding: 0 1.25rem 0 0.5rem;
+  font-size: 0.25rem;
   font-weight: normal;
   background: transparent;
   position: absolute;
   outline: medium;
   border: none;
-  letter-spacing: .89px;
+  letter-spacing: 0.013rem;
   cursor: pointer;
 }
 
@@ -391,7 +391,7 @@ export default Vue.extend({
   top: 0;
   right: 0;
   height: 100%;
-  width: 80px;
+  width: 1.25rem;
   float: right;
   display: block;
 }
@@ -401,48 +401,48 @@ export default Vue.extend({
   background: url(https://consumer.huawei.com/etc/designs/huawei-cbg-site/clientlib-support-v2/asset/img/first-screen-icon.svg) -22px -353px;
   display: block;
   position: absolute;
-  left: 24px;
+  left: 0.375rem;
   opacity: .8;
   top: 50%;
   transform: translateY(-40%) scale(1);
-  width: 36px;
-  height: 36px;
+  width: 0.562rem;
+  height: 0.562rem;
   background-position: -20px -353px;
 
 }
 
 .search-banner-component .support-search-index.v3.support-v4 .s-search-recommend {
-  border: 1px solid rgba(0, 0, 0, 0.20);
+  border: 0.015rem solid rgba(0, 0, 0, 0.20);
   border-top-color: #fff;
-  border-radius: 0 0 28px 28px;
-  width: calc(100% + 2px);
-  margin-left: -1px;
-  top: 55px;
+  border-radius: 0 0 0.437rem 0.437rem;
+  width: calc(100% + 0.031rem);
+  margin-left: -0.015rem;
+  top: 0.859rem;
   background: #fff;
   position: absolute;
   z-index: 2;
   box-shadow: none;
-  padding: 32px 0 16px 0;
+  padding: 0.5rem 0 0.25rem 0;
 }
 
 .search-banner-component .support-search-index.v3.support-v4 .s-search-recommend::before {
   position: absolute;
   content: "";
-  height: 1px;
+  height: 0.015rem;
   background: #57b75b;
   opacity: .4;
   top: 0;
-  left: 24px;
-  width: calc(100% - 48px);
+  left: 0.375rem;
+  width: calc(100% - 0.75rem);
 }
 
 .support-search-index.v3.support-v4 .s-search-recommend p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.218rem;
+  line-height: 0.312rem;
   color: #000;
   font-weight: bold;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
   letter-spacing: 0;
 }
 
@@ -462,33 +462,33 @@ export default Vue.extend({
 }
 
 .support-search-index.v3.support-v4 .s-search-recommend a {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 0.281rem;
+  line-height: 0.312rem;
   font-weight: normal;
   color: rgba(0, 0, 0, .5);
-  padding: 16px 0 16px 64px;
+  padding: 0.25rem 0 0.25rem 1rem;
   letter-spacing: 0;
   display: block;
 }
 
 
 .page-service {
-  max-width: 1200px;
+  max-width: 18.75rem;
   margin: 0 auto;
 }
 
 .page-service .service-item-list {
   position: relative;
-  box-shadow: 3px 8px 22px rgb(89 100 92 / 18%);
-  padding: 12px 0 11px;
+  box-shadow: 0.046rem 0.125rem 0.343rem rgb(89 100 92 / 18%);
+  padding: 0.187rem 0 0.171rem;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
-  border-radius: 24px;
+  -webkit-border-radius: 0.375rem;
+  -moz-border-radius:  0.375rem;
+  border-radius:  0.375rem;
   overflow: hidden;
-  margin-top: -110px;
+  margin-top: -1.718rem;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -503,13 +503,13 @@ export default Vue.extend({
 .page-service .service-item-list .service-item {
   width: 20%;
   position: relative;
-  height: 188px;
+  height: 2.937rem;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   cursor: pointer;
   text-align: center;
-  padding-bottom: 24px;
+  padding-bottom: 0.375rem;
   display: block;
 }
 
@@ -521,8 +521,8 @@ export default Vue.extend({
 .page-service .service-item-list .service-item:before {
   content: "";
   position: absolute;
-  width: 1px;
-  height: 165px;
+  width: 0.015rem;
+  height: 2.578rem;
   background-color: #f5f7fa;
   right: 0;
   top: 0;
@@ -530,9 +530,9 @@ export default Vue.extend({
 
 .page-service .service-item-list .service-item img {
   display: inline-block;
-  height: 76px;
-  padding-top: 24px;
-  margin-bottom: 16px;
+  height: 1.187rem;
+  padding-top: 0.375rem;
+  margin-bottom: 0.25rem;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   -moz-transition: all .3s;
@@ -541,9 +541,9 @@ export default Vue.extend({
 }
 
 .page-service .service-item-list .service-item p {
-  font-size: 18px;
-  line-height: 18px;
-  margin-bottom: 6px;
+  font-size: 0.281rem;
+  line-height: 0.281rem;
+  margin-bottom: 0.093rem;
   color: #242933;
   font-family: VIVO-FONT-WEB-BOLD, VIVO-FONT-NAV-BOLD, sans-serif;
   overflow: hidden;
@@ -553,8 +553,8 @@ export default Vue.extend({
 }
 
 .page-service .service-item-list .service-item span {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 0.218rem;
+  line-height: 0.281rem;
   color: #575c66;
 }
 
@@ -571,34 +571,34 @@ export default Vue.extend({
 
 .main-self-service {
   text-align: center;
-  margin: 0 auto 76.2px;
-  padding-top: 68.2px;
-  padding-bottom: 8.96px;
+  margin: 0 auto 1.190rem;
+  padding-top: 1.065rem;
+  padding-bottom: 0.14rem;
 }
 
 .main-self-service-four {
-  width: 1427.6px;
+  width: 22.306rem;
   margin: 0 auto;
 }
 
 .main-self-service--title {
-  font-size: 31.48px;
+  font-size: 0.491rem;
   line-height: 2.2;
-  margin-bottom: 1.68px;
+  margin-bottom: 0.026rem;
   font-family: OPPOSans-M;
   font-variation-settings: "wght" 750;
 }
 
 .main-self-service--subtitle {
-  font-size: 12.24px;
+  font-size: 0.191rem;
   font-family: OPPOSans-M;
   line-height: 0.5;
   opacity: 0.4;
-  margin-bottom: 52.96px;
+  margin-bottom: 0.827rem;
 }
 
 .main-self-service--list.four-item {
-  margin-left: 101.9px;
+  margin-left: 1.592rem;
 }
 
 .main-self-service--list {
@@ -609,12 +609,12 @@ export default Vue.extend({
 }
 
 .main-self-service--item {
-  width: 290px;
-  padding: 33.62px 10.4px 26.64px;
-  height: 243px;
+  width: 4.531rem;
+  padding: 0.525rem 0.162rem 0.416rem;
+  height: 3.796rem;
   line-height: 1.69;
   background: #f9fafc;
-  margin: 0 7.4px 14.4px;
+  margin: 0 0.115rem 0.225rem;
 }
 
 .main-self-service--item a {
@@ -630,8 +630,8 @@ export default Vue.extend({
 
 .main-self-service--item .van-image,
 .main-self-service--item .van-image__img {
-  width: 48px;
-  height: 48px;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .main-self-service--item .van-image img {
@@ -653,15 +653,15 @@ export default Vue.extend({
 }
 
 .main-self-service--item_title {
-  font-size: 17.8px;
-  margin: 11.94px auto 10.12px;
+  font-size: 0.278rem;
+  margin: 0.185rem auto 0.158rem;
   line-height: 155%;
   font-family: OPPOSans-M;
   font-variation-settings: "wght" 750;
 }
 
 .main-self-service--item_subtitle {
-  font-size: 14.24px;
+  font-size: 0.222rem;
   opacity: .4;
   overflow: hidden;
   font-family: OPPOSans-M;
@@ -675,7 +675,7 @@ export default Vue.extend({
 
 
 .nav-box-faq {
-  width: 500px;
+  width: 7.812rem;
   margin: 0 auto;
 }
 
@@ -692,7 +692,7 @@ export default Vue.extend({
 }
 
 .nav-box-faq .el-tabs__item {
-  font-size: 17px;
+  font-size: 0.265rem;
 }
 
 .nav-box-faq .el-tabs__active-bar {
@@ -705,8 +705,8 @@ export default Vue.extend({
 }
 
 .oppo-service-container {
-  width: 720px;
-  padding: 33.6px 0;
+  width: 11.25rem;
+  padding: 0.525rem 0;
 }
 
 .oppo-service-container {
@@ -720,16 +720,16 @@ export default Vue.extend({
 
 .faq_title .headline,
 .faq_title .subtitle {
-  width: 180px;
+  width: 2.812rem;
   text-align: center;
   color: #000;
 }
 
 .faq_title .headline {
-  height: 49.64px;
-  font-size: 30.96px;
+  height: 0.775rem;
+  font-size: 0.483rem;
   line-height: 1.2;
-  letter-spacing: 0.944px;
+  letter-spacing: 0.014rem;
   margin: auto;
   font-family: OPPOSans-M;
   font-variation-settings: "wght" 750;
@@ -737,20 +737,20 @@ export default Vue.extend({
 }
 
 .faq_title .subtitle {
-  height: 54.72px;
+  height: 0.855rem;
   font-family: OPPOSans-M;
-  font-size: 14.48px;
+  font-size: 0.226rem;
   line-height: 1.5;
-  letter-spacing: -0.028px;
+  letter-spacing: -0.0004rem;
   opacity: .4;
-  margin: 3.36px auto 0;
+  margin: 0.052rem auto 0;
 }
 
 .nav-box-faq ul {
   position: relative;
   display: flex;
-  width: 541.36px;
-  margin: 16.2px auto 0;
+  width: 8.458rem;
+  margin: 0.253rem auto 0;
   text-align: right;
   justify-content: center;
   list-style: none;
@@ -759,16 +759,16 @@ export default Vue.extend({
 .nav-box-faq ul .underlinefaq {
   position: absolute;
   bottom: 0;
-  height: 1.28px;
+  height: 0.02rem;
   background: #000;
   transition: left .5s;
 }
 
 .nav-box-faq li {
   position: relative;
-  font-size: 18.48px;
-  letter-spacing: -0.028px;
-  margin-right: 24.6px;
+  font-size: 0.288rem;
+  letter-spacing: -0.0004rem;
+  margin-right: 0.384rem;
   cursor: pointer;
 }
 
@@ -777,7 +777,7 @@ export default Vue.extend({
 }
 
 .core_content {
-  margin-top: 25.12px;
+  margin-top: 0.392rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -785,19 +785,19 @@ export default Vue.extend({
 }
 
 .core_content .question {
-  width: 620px;
-  max-width: 620px;
+  width: 9.687rem;
+  max-width: 9.687rem;
 }
 
 .core_content .question ul {
-  border-top: 2.28px solid #eaeaea;
+  border-top: 0.035rem solid #eaeaea;
   list-style: none;
 }
 
 .core_content .question ul li {
-  height: 100px;
+  height: 1.562rem;
   text-align: left;
-  border-bottom: 2.28px solid #eaeaea;
+  border-bottom: 0.035rem solid #eaeaea;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -808,24 +808,24 @@ export default Vue.extend({
 
 .core_content .question ul li>a:first-child {
   font-family: OPPOSans-M;
-  margin-right: 4.5px;
-  font-size: 20px;
+  margin-right: 0.070rem;
+  font-size: 0.312rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .core_content .question ul li a {
-  font-size: 5px;
-  line-height: 30px;
-  letter-spacing: -0.0336px;
+  font-size: 0.078rem;
+  line-height: 0.468rem;
+  letter-spacing: -0.0005rem;
   color: #000;
   font-family: OPPOSans-Ver2-Medium;
   font-variation-settings: "wght" 750;
 }
 
 .popularfaq {
-  padding-bottom: 100px;
+  padding-bottom: 1.562rem;
 }
 
 #main-service-center {
@@ -835,8 +835,8 @@ export default Vue.extend({
 }
 
 #main-service-center .title {
-  margin-top: 12.8px;
-  font-size: 31px;
+  margin-top: 0.2rem;
+  font-size: 0.484rem;
   font-weight: 500;
   font-family: OPPOSans-M;
   font-variation-settings: "wght" 750;
@@ -845,8 +845,8 @@ export default Vue.extend({
 #main-service-center .intro-box {
   display: flex;
   width: 80%;
-  height: 450px;
-  margin: 50.8px auto 30.6px;
+  height: 7.031rem;
+  margin: 0.793rem auto 0.478rem;
   background-color: #f9fafc;
 
 }
@@ -864,10 +864,10 @@ export default Vue.extend({
 }
 
 #main-service-center .intro-box .text-box .desc {
-  margin-top: 174.6px;
+  margin-top: 2.728rem;
   /* width: 120px; */
-  font-size: 15px;
-  letter-spacing: -.024px;
+  font-size: 0.234rem;
+  letter-spacing: -0.0003rem;
   font-family: OPPOSans-M;
   font-variation-settings: "wght" 750;
   -webkit-line-clamp: 3;
@@ -882,7 +882,7 @@ export default Vue.extend({
 }
 
 #main-service-center .intro-box .text-box .rights-box {
-  margin: 47px auto 0;
+  margin: 0.734rem auto 0;
   width: 80%;
   display: -ms-flexbox;
   display: flex;
@@ -892,19 +892,19 @@ export default Vue.extend({
 
 #main-service-center .intro-box .text-box .rights-box .right-item {
   width: 23%;
-  margin-right: 12.24px;
+  margin-right: 0.191rem;
 }
 
 #main-service-center .intro-box .text-box .rights-box .right-item img {
-  width: 30px;
-  height: 30px;
+  width: 0.468rem;
+  height: 0.468rem;
 }
 
 #main-service-center .intro-box .text-box .rights-box .right-item span {
-  margin-top: 1.6px;
+  margin-top: 0.025rem;
   display: block;
   width: 100%;
-  font-size: 2.8px;
+  font-size: 0.043rem;
   line-height: 173%;
   letter-spacing: -.0006rem;
   font-family: OPPOSans-M;
@@ -917,9 +917,9 @@ export default Vue.extend({
 }
 
 .contact-us-v2 .contact-us-v2-container {
-  max-width: 1270px;
+  max-width: 19.843rem;
   margin: 0 auto;
-  padding: 83px 40px;
+  padding: 1.296rem 0.625rem;
 }
 
 .contact-us-v2 .contact-us-v2-wrap {
@@ -940,7 +940,7 @@ export default Vue.extend({
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 -20px;
+  margin: 0 -0.312rem;
 }
 
 .contact-us-v2 .contact-us-v2-row {
@@ -949,13 +949,13 @@ export default Vue.extend({
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
-  padding: 12px 20px;
+  padding: 0.187rem 0.312rem;
 }
 
 .contact-us-v2 .contact-us-v2-row .contact-us-v2-cnt {
   background: #f9fafc;
-  border-radius: 24px;
-  min-height: 210px;
+  border-radius: 0.375rem;
+  min-height: 3.281rem;
   padding: 0 3.75vw;
   position: relative;
   height: 100%;
@@ -974,11 +974,11 @@ export default Vue.extend({
 }
 
 .contact-us-v2 .contact-us-v2-qr-code {
-  margin-right: 32px;
+  margin-right: 0.5rem;
 }
 
 .contact-us-v2 .contact-us-v2-qr-code img {
-  width: 112px;
+  width: 1.75rem;
 }
 
 .img-lazy.show {
@@ -986,21 +986,21 @@ export default Vue.extend({
 }
 
 .contact-us-v2 .contact-us-v2-qr-code-tips {
-  padding: 45px 0;
+  padding: 0.703rem 0;
 }
 
 .contact-us-v2 .contact-us-v2-qr-code-tips .title {
-  font-size: 16px;
+  font-size: 0.25rem;
   color: #000;
-  line-height: 24px;
+  line-height: 0.375rem;
   font-weight: 700;
-  padding: 8px 0;
+  padding: 0.125rem 0;
 }
 
 .contact-us-v2 .contact-us-v2-qr-code-tips .description {
   display: block;
-  font-size: 14px;
+  font-size: 0.218rem;
   color: #585858;
-  line-height: 20px;
-  padding: 8px 0;
+  line-height: 0.312rem;
+  padding: 0.125rem 0;
 }</style>

@@ -269,7 +269,7 @@ export default Vue.extend({
 }
 
 .pro_img_container .swiper-pagination-pro-img:before {
-    width: 1px;
+    width: 0.015rem;
     height: calc(100% - 162px);
     background: #4fb46e;
     content: '';
@@ -287,11 +287,11 @@ export default Vue.extend({
 
 
 .pro_img_container .swiper-pagination-pro-img .swiper-pagination-bullet {
-    margin: 20px 0;
-    width: 15px;
-    height: 15px;
+    margin: 0.312rem 0;
+    width: 0.234rem;
+    height: 0.234rem;
     background: #fff;
-    border: 1px solid #4fb46e;
+    border: 0.015rem solid #4fb46e;
     opacity: 1;
     z-index: 100;
     position: relative;
@@ -303,7 +303,7 @@ export default Vue.extend({
 
 .recommend {
     /* background-color: #f7f7f7; */
-    height: 524px;
+    height: 8.187rem;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -311,8 +311,8 @@ export default Vue.extend({
 }
 
 .recommend .tabs {
-    padding: 55px 0 10px 80px;
-    font-size: 16px;
+    padding: 0.859rem 0 0.156rem 1.25rem;
+    font-size: 0.25rem;
     color: #000;
     font-weight: 700;
     overflow: hidden;
@@ -321,56 +321,56 @@ export default Vue.extend({
 .recommend .tabs .tab_item {
     cursor: pointer;
     display: inline-block;
-    margin-right: 36px;
+    margin-right: 0.562rem;
 }
 
 .section_wrapper .swiper-button-prev {
     background: url(https://www.oebiotech.com/static/default/images/about_l.png)no-repeat;
     background-size: cover;
-    width: 54px;
+    width: 0.843rem;
     color: rgba(0, 0, 0, 0) !important;
-    height: 54px;
-    margin-top: 36px;
+    height: 0.843rem;
+    margin-top: 0.562rem;
     left: 0;
-    margin-left: 2px;
+    margin-left: 0.031rem;
 }
 
 .section_wrapper .swiper-button-next {
     background: url(https://www.oebiotech.com/static/default/images/about_r.png)no-repeat;
     background-size: cover;
-    width: 54px;
-    height: 54px;
+    width: 0.843rem;
+    height: 0.843rem;
     color: rgba(0, 0, 0, 0) !important;
-    margin-top: 36px;
+    margin-top: 0.562rem;
     right: 0;
-    margin-right: 2px;
+    margin-right: 0.031rem;
 }
 
 .section_wrapper {
-    padding-top: 50px;
+    padding-top: 0.781rem;
     position: relative;
-    width: 1200px;
+    width: 18.75rem;
     margin: 0 auto;
 }
 
 .recommend .section_wrapper .content_wrapper {
-    width: 1008px;
-    height: 290px;
+    width: 15.75rem;
+    height: 4.531rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
 
 .recommend .swiper-container .swiper-slide:hover {
-    -webkit-transform: translate3d(0, -2px, 0);
-    transform: translate3d(0, -2px, 0);
-    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1)
+    -webkit-transform: translate3d(0, -0.031rem, 0);
+    transform: translate3d(0, -0.031rem, 0);
+    -webkit-box-shadow: 0 0 0.468rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0.468rem rgba(0, 0, 0, .1)
 }
 
 .recommend .swiper-container .swiper-slide {
-    width: 245px;
-    height: 277px;
+    width: 3.828rem;
+    height: 4.328rem;
     text-align: center;
     background-color: #f7f7f7;
     display: inline-block;
@@ -389,19 +389,19 @@ export default Vue.extend({
 }
 
 .recommend .swiper-container .recommend_item_link img {
-    width: 170px;
-    height: 170px;
-    margin-top: 16px;
+    width: 2.656rem;
+    height: 2.656rem;
+    margin-top: 0.25rem;
 }
 
 .recommend .swiper-container .recommend_item_info {
-    font-size: 14px;
+    font-size: 0.218rem;
 }
 
 .recommend .swiper-container .recommend_item_info .name {
-    padding: 16px 30px 0;
+    padding: 0.25rem 0.468rem 0;
     color: #333;
-    line-height: 30px;
+    line-height: 0.468rem;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;

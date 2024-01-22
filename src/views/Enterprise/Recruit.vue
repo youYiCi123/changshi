@@ -28,7 +28,7 @@
                 </div>
                 <div class="hrIdea_box">
                     <div class="hrIdea_item wgt-fade-animate appear  wow bounceInUp" @mouseleave="conceptMouseLeave(index)"
-                        @mouseenter="conceptMouseEnter(index)" style="height: 540px;" v-for="(item, index) in concept"
+                        @mouseenter="conceptMouseEnter(index)" style="height: 8.437rem;" v-for="(item, index) in concept"
                         :key="index">
                         <div class="hrIdea_img">
                             <img :src="item.imgUrl">
@@ -643,7 +643,7 @@ export default Vue.extend({
 .recBox {
     border-radius: 0.093rem;
     border: 0.015rem solid rgba(170, 170, 170, .2);
-    padding-bottom: 1.25rem;
+    padding-bottom: 0.65rem;
 }
 
 .recruit .recItem {

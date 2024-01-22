@@ -103,7 +103,7 @@ export default Vue.extend({
 <style >
 /* 12 */
 .ban-question {
-    height: 400px;
+    height: 6.25rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,28 +115,28 @@ export default Vue.extend({
 
 .question-search {
     position: absolute;
-    width: 702px;
+    width: 10.968rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .question-search .inp {
-    height: 45px;
-    padding: 0 10.8px;
-    border: 1px solid rgba(255, 255, 255, .4);
-    border-radius: 23px;
+    height: 0.703rem;
+    padding: 0 0.168rem;
+    border: 0.015rem solid rgba(255, 255, 255, .4);
+    border-radius: 0.359rem;
 }
 
 .question-search input[type=text] {
-    height: 41.4px;
-    padding: 3.3px 0;
+    height: 0.646rem;
+    padding: 0.051rem 0;
     border: none;
     outline: medium;
     background-color: transparent;
     color: #fefefe;
-    font-size: 16px;
-    line-height: 29.4px;
+    font-size: 0.25rem;
+    line-height: 0.459rem;
     width: 80%;
 }
 
@@ -145,8 +145,8 @@ input::placeholder {
 }
 
 .question-search .keywords {
-    margin-top: 4.8px;
-    padding: 0 12px;
+    margin-top: 0.075rem;
+    padding: 0 0.187rem;
     font-size: 0;
 }
 
@@ -155,14 +155,14 @@ input::placeholder {
     display: inline-block;
     /* *display: inline; */
     zoom: 1;
-    font-size: 4.5px;
+    font-size: 0.070rem;
     color: #fefefe;
-    margin-right: 6.6px;
+    margin-right: 0.103rem;
     transition: all .3s;
 }
 
 .question-container {
-    padding-bottom: 51px;
+    padding-bottom: 0.796rem;
     background-color: #f7f7f7;
 }
 
@@ -172,7 +172,7 @@ input::placeholder {
 }
 
 .question-wrap {
-    margin-top: -47.5px;
+    margin-top: -0.742rem;
     background-color: #ffffff;
     z-index: 3;
     position: relative;
@@ -195,7 +195,7 @@ input::placeholder {
     background-color: #ffffff;
     width: 21%;
     float: left;
-    border-right: 1px solid #ededed;
+    border-right: 0.015rem solid #ededed;
 }
 
 .question-wrap .question-aside .tit {
@@ -203,21 +203,21 @@ input::placeholder {
     font-weight: bold;
     font-family: monospace;
     padding: 0 15%;
-    font-size: 21.2px;
-    line-height: 48.8px;
-    border-bottom: 1px solid #ededed;
+    font-size: 0.331rem;
+    line-height: 0.762rem;
+    border-bottom: 0.015rem solid #ededed;
 }
 
 .question-wrap .question-list {
-    padding: 30px 9.33% 43.5px;
-    width: calc(95.34% - 1px);
-    padding-left: 309px;
+    padding: 0.468rem 9.33% 0.679rem;
+    width: calc(95.34% - 0.015rem);
+    padding-left: 4.828rem;
 }
 
 /* 设置elmentui的样式 */
 
 .el-collapse-item__header {
-    font-size: 16px;
+    font-size: 0.25rem;
 }
 
 .el-collapse-item__header.is-active {
@@ -226,7 +226,7 @@ input::placeholder {
 
 .el-collapse-item__wrap {
     /* padding-top: 10px; */
-    padding-left: 14px;
+    padding-left: 0.218rem;
     background-color: #fafafa;
 }</style>
     
