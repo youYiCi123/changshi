@@ -14,7 +14,7 @@
                     <h4>{{ item.prodName }}</h4>
                     <h6>{{ item.feature }}</h6>
                     <p>{{ item.principle }}</p>
-                    <router-link class="product_more_desc" :to="{ path: '/Product/ProductDetial', query: { prodId: item.id, } }">查看更多</router-link>
+                    <router-link class="product_more_desc" :to="{ path: 'ProductDetial', query: { prodId: item.id, } }">查看更多</router-link>
                 </div>
                 <div class="product_h_line">
                 </div>

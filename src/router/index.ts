@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
+import NewsDetail from '../views/News/NewsDetail.vue'
+import ProductDetial from '../views/product/ProductDetial.vue'
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
@@ -24,8 +26,7 @@ const routes: Array<RouteConfig> = [
       {
         path: 'NewsDetail',
         name: 'NewsDetail',
-        component: () => import('../views/News/NewsDetail.vue'),
-       
+        component: NewsDetail,
       },
     ]
   },
@@ -64,7 +65,7 @@ const routes: Array<RouteConfig> = [
       {
         path: 'ProductDetial',
         name: 'ProductDetial',
-        component: () => import('../views/product/ProductDetial.vue'),
+        component: ProductDetial,
       },
     ],
   },
