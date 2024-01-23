@@ -78,7 +78,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'history',
-  base:'/', //这个必配，是index.html所在的路径地址
+  base:process.env.BASE_URL, //这个必配，是index.html所在的路径地址
   routes
 })
 

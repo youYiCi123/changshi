@@ -4,7 +4,7 @@ declare module '*.vue' {
 }
 declare module 'swiper'
 declare module 'wowjs' 
-declare module 'wowjs/css/libs/animate.css' 
+// declare module 'wowjs/css/libs/animate.css' 
 declare module 'vue-count-to' 
 declare module 'element-ui/lib/locale/lang/zh-CN'
 declare module 'vue-fullpage.js'

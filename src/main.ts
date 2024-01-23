@@ -11,14 +11,15 @@ import 'fullpage.js/vendors/scrolloverflow';
 import '@/iconfont/iconfont.css'
 import VueFullPage from 'vue-fullpage.js';
 import  '@/utils/flexible.js';
-import animated from 'wowjs/css/libs/animate.css'
+import  'wowjs/css/libs/animate.css'
 import '@/assets/font/font.scss';
 //这里需要将样式用起来，
-Vue.use(animated)
+
 Vue.use(ElementUI, { locale })
 // import jquery from "jquery";
 // Vue.prototype.$= jquery;
 Vue.use(VueFullPage)
+// Vue.use(animated)
 Vue.config.productionTip = false
 new Vue({
   // components:{
