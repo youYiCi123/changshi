@@ -2,7 +2,11 @@ import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
+import News from '../views/News/news.vue'
+import NewsList from '../views/News/NewsList.vue'
 import NewsDetail from '../views/News/NewsDetail.vue'
+import Product from '../views/product/Product.vue'
+import ProductList from '../views/product/ProductList.vue'
 import ProductDetial from '../views/product/ProductDetial.vue'
 Vue.use(VueRouter)
 
@@ -15,13 +19,13 @@ const routes: Array<RouteConfig> = [
   {
     path: '/news',
     name: 'news',
-    component: () => import('../views/News/news.vue'),
+    component: News,
     redirect: '/news/NewsList',
     children: [
       {
         path: 'NewsList',
         name: 'NewsList',
-        component: () => import('../views/News/NewsList.vue'),
+        component: NewsList,
       },
       {
         path: 'NewsDetail',
@@ -54,13 +58,13 @@ const routes: Array<RouteConfig> = [
   {
     path: '/Product',
     name: 'Product',
-    component: () => import('../views/product/Product.vue'),
+    component: Product,
     redirect: '/Product/ProductList',
     children: [
       {
         path: 'ProductList',
         name: 'ProductList',
-        component: () => import('../views/product/ProductList.vue'),
+        component: ProductList,
       },
       {
         path: 'ProductDetial',
